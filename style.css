@@ -10,7 +10,7 @@
   }
   
   .submit-btn {
-    margin-right : 60px;
+    margin-right : 40px;
     text-align: center;
     margin-top: 15px;
     border: 1px solid #fff;
@@ -24,6 +24,7 @@
   h3 {
     text-align: center;
     margin: 5px;
+    padding-left: 40px 
   }
 
   input {
