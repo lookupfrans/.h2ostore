@@ -14,7 +14,7 @@
     <header>
       <div class="container">
         <div class="header-left">
-          <h2>H2O<small> store</small></h2>
+          <div class="title">H2O<small> store</small></div>
         </div>
         <div id="mySidenav" class="sidenav">
           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -105,9 +105,8 @@
                 <h3>Password</h3>
               <button onclick="myFunction()" class="submit-btn" type="submit value="submit">Submit</button>
             </div>
-            
-            <script>
-
+          </form>
+          <script>
             function myFunction() {
               let text = "It may take several minutes....";
               if (confirm(text) == true) {
@@ -117,15 +116,18 @@
               }
               document.getElementById("demo").innerHTML = text;
             }
-
-            </script>
+         </script>
     </div>
-        </form>
-
     <footer>
       <div class="container">
-        <h2>H2O<small> store</small></h2>
-        <p></p>
+        <div class="title">H2O<small> store</small></div>
+        <!----<p></p>------>
+        <p>&#169; 2023 H2O Store</p>
+          <div class="sosmed">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-twitter"></i>
+            <i class="bi bi-instagram"></i>
+          </div>
       </div>
     </footer>
   </body>
