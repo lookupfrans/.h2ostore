@@ -354,4 +354,22 @@ h2 {
     background-color: rgba(34, 49, 52, 0.9);
     background-image: linear-gradient(to left, red, yellow);
   }
+
+.title {
+    opacity: 0.9;
+    font-size: 30px;
+    font-family:'Roboto Mono', monospace;
+    margin-top: 25px;
+  }
+
+  .sosmed {
+    margin-top: 10px;
+    width: 10%;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    float: left;
+    cursor: pointer;
+  }
+
   
