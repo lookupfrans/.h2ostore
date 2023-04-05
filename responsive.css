@@ -7,6 +7,10 @@
     .header-right {
       display: none;
     }
+    
+    .box {
+        width: 100%;
+    }
 
     small {
       color: white;
