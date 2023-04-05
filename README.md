@@ -1,1 +1,1 @@
-# .h2ostore
+# H2Ostore

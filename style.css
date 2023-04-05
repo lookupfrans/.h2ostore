@@ -1,0 +1,354 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family:'Roboto Mono', monospace;
+    opacity: 0.8;
+    
+  }
+  
+  .submit-btn {
+    margin-right : 85px;
+    text-align: center;
+    margin-top: 15px;
+    border: 1px solid #fff;
+    font-family:'Roboto Mono', monospace;
+  }
+
+  .submit-btn:hover {
+    background-color: brown;
+  }
+
+  h3 {
+    text-align: center;
+    margin: 5px;
+  }
+
+  input {
+    top: -18px;
+    left: 0px;
+    color: white;
+    font-size: 12px;
+    width: 300px;
+    height: 30px;
+    padding-left: 5px;
+    font-family:'Roboto Mono', monospace;
+  }
+
+  .box {
+    height: 400px;
+    /*background-image: url(https://coolbackgrounds.io/images/backgrounds/black/black-trianglify-b6181ec2.jpg);*/
+    text-align: center;
+    justify-content: center;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    padding-right: 600px;
+    margin-right: ;
+    padding-left: 600px;
+    width: 100%;
+    background-size: cover;
+    border-bottom: 1px solid #fff;
+    padding-top: 10px;
+  }
+
+  mySidenav {
+    float: right;
+  }
+
+  button {
+    float: right;
+    margin-top: 60px;
+    padding: 10px 30px;
+    background-color: rgba(34, 49, 52, 0.0);
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+  }
+
+  .fa {
+    opacity: 1;
+  }
+
+  
+.sidenav {
+  height: 100%; 
+  width: 0;
+  position: fixed; 
+  z-index: 1; 
+  top: 0; 
+  left: 0;
+  background-image: linear-gradient(to right, red, yellow);
+  overflow-x: hidden; 
+  padding-top: 60px; 
+  transition: 0.5s; 
+}
+
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+
+#main {
+  transition: margin-left .5s;
+  padding: 0px;
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+  span {
+    color: red;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .clear {
+    clear: left;
+  }
+  
+  .container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  
+  .top-wrapper {
+    padding: 180px 0 100px 0;
+    /*background-image: url(https://coolbackgrounds.io/images/backgrounds/black/black-trianglify-b6181ec2.jpg);*/
+    background-size: cover;
+    color: white;
+    text-align: center;
+  }
+  
+  .top-wrapper h1 {
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .top-wrapper p {
+    opacity: 0.7;
+    margin-bottom: 3px;
+  }
+  
+  .btn-wrapper {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .btn-wrapper p {
+    margin: 10px 0;
+  }
+  
+  .signup {
+    background-color: brown;
+    font-family:'Roboto Mono', monospac
+    opacity: 0.8;
+  }
+  
+  .facebook {
+    background-color: brown;
+    margin-right: 80px;
+    margin-left: 50px;
+    font-family:'Roboto Mono', monospace;
+    opacity: 0.8;
+  }
+  
+  .twitter {
+    background-color: brown;
+    margin-right: 70px;
+    font-family:'Roboto Mono', monospace;
+    opacity: 0.8;
+  }
+  
+  .btn {
+    padding: 12px 50px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+    margin: 10px;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  
+  .fa {
+    margin-right: 5px;
+  }
+  
+  header {
+    height: 150px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    position :fixed;
+    top: 0;
+    z-index: 10;
+    background-image: linear-gradient(to right, red, yellow);
+  }
+  
+  
+  .header-left {
+    float: left;
+    margin-top: 30px;
+    margin-right: 0;
+    margin-bottom: 100px;
+  }
+
+  li ul {
+    margin-right: 30px;
+    margin-bottom: 100px;
+    list-style: none;
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
+  li {
+    list-style: none;
+    float: left;
+    margin-right: 20px;
+    margin-top: 50px;
+    opacity: 0.8;
+    display: block;
+  }
+
+  .header-right {
+    float: right;
+    margin-top: 65px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-family:'Roboto Mono', monospace;
+  }
+
+  .header-right:hover {
+    text-decoration: underlined;
+    font-family:'Roboto Mono', monospace;
+  }
+  
+    header .menu-icon {
+    display: none;
+  }
+
+  .lesson-wrapper {
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    /*background-color: #f7f7f7;*/
+    text-align: center;
+  }
+  
+  .heading {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: #5f5d60;
+  }
+  
+  .heading h2 {
+    font-weight: normal;
+  }
+  
+  .lesson {
+    float: left;
+    width: 25%;
+  }
+
+  img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .lesson-icon {
+    position: relative;
+  }
+  
+  .lesson-icon p {
+    position: absolute;
+    top: 44%;
+    width: 100%;
+    color: white;
+  }
+  
+  .text-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #b3aeb5;
+  }
+  
+  .heading h3 {
+    font-weight: normal;
+  }
+  
+  .message-wrapper {
+    /*border-bottom: 1px solid #eee;*/
+    border-bottom: 3px solid #fff;;
+    padding-bottom: 80px;
+    text-align: center;
+    background-size: cover;
+    /*background-image: url(https://coolbackgrounds.io/images/backgrounds/black/black-trianglify-b6181ec2.jpg);*/
+  }
+  
+  .message {
+    padding: 15px 40px;
+    background-color: brown;
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
+  }
+  
+  .message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+
+  .container h2 {
+    opacity: 0.8;
+  }
+  
+  footer img {
+    width: 125px;
+  }
+  
+  footer p {
+    color: #b3aeb5;
+    font-size: 12px;
+  }
+  
+  footer {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: rgba(34, 49, 52, 0.9);
+    background-image: linear-gradient(to left, red, yellow);
+  }
+  
