@@ -6,18 +6,67 @@
     <title>H2Ostore</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <script src="auto.js"></script>
+    <!---<script src="auto.js"></script>--->
   </head>
-    <body>
-        <br>
-        <small style="color:red; margin-top: 500px;">$---------< id=1000245 rgstrtn process?= Activation email has been successfully located into your email... Please check your email/dsa/sdwda4/boot?forwrd rgrstn!-----></id></small>
+  <style>
 
+    body {
+      background-color: rgba(34, 49, 52, -0.9)
+    }
 
+    .loading-gif {
+        max-width: 400px;
+    }
 
+    .pre-loader {
+        position: fixed;
+        z-index: 100; 
+        top: 0;
+        left: 0;
+        background: rgba(34, 49, 52, 0.0);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        border: none;
+        border-style: none;
+        border-width: none;
+    }
 
+    .pre-loader.hidden {
+        animation: fadeOut 5s;
+        animation-fill-mode: forwards;
+    }
 
+    @keyframes fadeOut {
+        100% {
+            opacity: 0;
+            visibility: hidden;
+            border: none;
+            border-style: none;
+            border-width: none;
+        }
+    }
+  </style>
+    </head>
+      <body>
+          <br>
+          <small style="color:red; margin-top: 500px;">$---------< id=1000245 rgstrtn process?= Activation email has been successfully located into your email... Please check your email/dsa/sdwda4/boot?forwrd rgrstn!-----></id></small>
+          <!----<p>Page content</p>/---->
+        <div class='pre-loader'>
+          <img class='loading-gif' alt='loading' src="Ecxd.gif"/>
+        </div>
 
-</body>
+            <script type='text/javascript'>
+    
+               window.addEventListener('load', function () {
+               document.querySelector('.pre-loader').className += ' hidden';
+                });
+
+            </script>
+        </body>
+</html>
+
 
