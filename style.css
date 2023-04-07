@@ -6,7 +6,15 @@
     margin: 0;
     font-family:'Roboto Mono', monospace;
     opacity: 0.8;
-    
+  }
+
+  textarea {
+    overflow-y: scroll;
+  }
+
+  .box-title {
+    text-align: center;
+    margin-bottom: 20px;  
   }
   
   .submit-btn {
