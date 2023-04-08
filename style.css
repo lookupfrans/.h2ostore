@@ -15,10 +15,27 @@
   .box-title {
     text-align: center;
     margin-bottom: 20px;  
+    border: 2px solid red;
+    background-color: wheat;
+    border-radius: 12px;
+    padding: 5px;
+    inline-size: 260px;
     margin-top: 40px;
-    margin-left: 31px;
+    margin-left: 20px;
     font-size: 28px;
-  }
+    animation: blink-animation 1s steps(5, start) infinite;
+    -webkit-animation: blink-animation 1s steps(5, start) infinite;
+    }
+    @keyframes blink-animation {
+      to {
+       visibility: hidden;
+       }
+    }
+    @-webkit-keyframes blink-animation {
+      to {
+       visibility: hidden;
+       }
+    }
   
   .submit-btn {
     margin-right : 40px;
@@ -100,7 +117,7 @@
   overflow-x: hidden; 
   padding-top: 60px; 
   transition: 0.5s; 
-}
+  }
 
 
 .sidenav a {
@@ -110,16 +127,16 @@
   color: white;
   display: block;
   transition: 0.3s;
-}
+  }
 
 
 .sidenav a:hover {
   color: #f1f1f1;
-}
+  }
 
 h2 {
     padding-left: 35px;
-}
+  }
 
 .sidenav .closebtn {
   position: absolute;
@@ -127,19 +144,19 @@ h2 {
   right: 25px;
   font-size: 36px;
   margin-left: 50px;
-}
+  }
 
 
 #main {
   transition: margin-left .5s;
   padding: 0px;
-}
+  }
 
 
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
-}
+  }
 
   span {
     color: red;
