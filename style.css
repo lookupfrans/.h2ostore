@@ -322,6 +322,9 @@ h2 {
   img {
     width: 200px;
     height: 200px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
   }
   
   .lesson-icon {
