@@ -3,6 +3,22 @@
     .lesson {
       width: 100%;
     }
+
+     body {
+       width: 100%;
+    }
+
+     header {
+       width: 100%;
+    }
+
+     .box {
+       width: 100%;
+    }
+
+     placeholder {
+       color: black;
+    }
     
     .header-right {
       display: none;
