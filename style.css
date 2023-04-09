@@ -42,7 +42,7 @@
     text-align: center;
     margin-top: 15px;
     border: 1px solid #fff;
-    /*font-family:'Roboto Mono', monospace;*/
+    font-family:'Roboto Mono', monospace;
   }
 
   .submit-btn:hover {
