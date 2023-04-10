@@ -1,15 +1,8 @@
+
 @media all and (max-width: 670px) {
-   .input-box {
-     width: 100%;
-   }
-
-   .box .input-box {
-     width: 100%;
-   }
-
     .lesson {
       width: 100%;
-   }
+    }
     
     .header-right {
       display: none;
@@ -113,10 +106,11 @@
     
     .sosmed {
         margin-top: 10px;
-        width: 100%;
+        width: 10%;
         display: flex;
         justify-content: space-between;
         float: left;
         cursor: pointer;
     }
   }
+  
