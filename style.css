@@ -55,7 +55,7 @@
   }
     
   h3 {
-    margin: 10px;
+    margin: 5px;
     padding-left: 45px; 
     /*font-family:'Roboto Mono', monospace;*/
   }
@@ -136,6 +136,7 @@
 
 h2 {
     padding-left: 35px;
+    opacity: 0.8;
   }
 
 .sidenav .closebtn {
@@ -156,6 +157,7 @@ h2 {
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
+  }
 
   span {
     color: red;
@@ -286,6 +288,43 @@ h2 {
     font-family:'Roboto Mono', monospace;
   }
 
+  /*header-right::after {
+    opacity: 40%;
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    box-sizing: border-box;
+    border-bottom: 2px solid rgb(254, 254, 254);
+    border-right: 2px solid rgb(254, 254, 254);
+    transition: all 0.4s;
+  }
+
+  header-right:hover:after,
+  header-right:hover::before {
+    display: block;
+    content: '';
+    width: 10%;
+    height: 20%;
+    transform: rotate(360deg);
+  }
+
+  header-right::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    border-top: 2px solid rgb(254, 254, 254);
+    border-left: 2px solid rgb(254, 254, 254);
+    transition: all 0.4s;
+    opacity: 40%;
+  }*/
+
   .header-right:hover {
     text-decoration: underlined;
     font-family:'Roboto Mono', monospace;
@@ -301,21 +340,25 @@ h2 {
     padding-right: 5%;
     /*background-color: #f7f7f7;*/
     text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
   }
   
   .heading {
     padding-top: 80px;
     padding-bottom: 50px;
     color: #5f5d60;
+    opacity: 0.8;
   }
   
   .heading h2 {
     font-weight: normal;
+    opacity: 0.8;
   }
   
   .lesson {
     float: left;
     width: 25%;
+    /*background-image: url(jpg5.jpg);*/
   }
 
   img {
@@ -324,6 +367,10 @@ h2 {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.5s ease-in-out;
+  }
+
+  img:hover {
+    transform: scale(1.1);
   }
   
   .lesson-icon {
@@ -355,7 +402,8 @@ h2 {
     padding-bottom: 80px;
     text-align: center;
     background-size: cover;
-    /*background-image: url(https://coolbackgrounds.io/images/backgrounds/black/black-trianglify-b6181ec2.jpg);*/
+    /*background-image: url(jpg5.jpg);*/
+    opacity: 0.5;
   }
   
   .message {
@@ -408,4 +456,5 @@ h2 {
     float: left;
     cursor: pointer;
   }
+
   
