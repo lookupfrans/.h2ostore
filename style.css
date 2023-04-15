@@ -10,6 +10,7 @@
 
   textarea {
     overflow-y: scroll;
+    margin-left: 420px;
   }
 
   .box-title {
@@ -21,7 +22,7 @@
     padding: 5px;
     inline-size: 260px;
     margin-top: 40px;
-    margin-left: 20px;
+    margin-left: 440px;
     font-size: 28px;
     animation: blink-animation 1s steps(5, start) infinite;
     -webkit-animation: blink-animation 1s steps(5, start) infinite;
@@ -58,6 +59,8 @@
     margin: 5px;
     padding-left: 45px; 
     /*font-family:'Roboto Mono', monospace;*/
+    text-align: center;
+    margin-left: 480px;
   }
 
   input {
@@ -69,6 +72,7 @@
     height: 30px;
     padding-left: 5px;
     /*font-family:'Roboto Mono', monospace;*/
+    margin-left: 420px;
   }
 
   .box {
