@@ -146,7 +146,8 @@
     }
 
     footer {
-      margin:0;
+      margin: 0;
+      width: 100%;
     }
   
     td {
