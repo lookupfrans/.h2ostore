@@ -137,10 +137,15 @@
     .title {
       font-size: 20px;
     }
+
+    footer {
+      margin:0;
+    }
   
     td {
       width: 100%;
       font-size: 20px;
+      margin: 0;
     }
 
     td p {
