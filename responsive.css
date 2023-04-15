@@ -84,16 +84,23 @@
       display: none;
     } 
     
-    .twitter {
+    .instagram {
+        margin: 0;
         opacity: 0.8;
+    }
+
+    .fa {
+        margin: 0;
     }
     
     .facebook {
         opacity: 0.8;
+        margin: 0;
     }
-    
+
     .twitter {
         opacity: 0.8;
+        margin: 0;
     }   
         
     .menu-icon {
