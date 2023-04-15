@@ -442,9 +442,9 @@ h2 {
   }
 
 .title {
-    opacity: 0.9;
+    opacity: 1;
     font-size: 30px;
-    font-family:'Roboto Mono', monospace;
+    /*font-family:'Roboto Mono', monospace;*/
     margin-top: 25px;
   }
 
