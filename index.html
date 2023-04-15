@@ -94,19 +94,26 @@
       <div class="box-title">Investing here</div>
           <form action="confirm.html">
             <div class="input-box">
-              <input type="text" name="username"  placeholder="Username" autocomplete="off" required>
+              <input type="text" name="username"  placeholder="Username" onfocus="onFunction(this)" autocomplete="off" required>
                 <h3>Username</h3>
             </div>
             <div class="input-box">
-              <input type="email" name="email" placeholder="Email" autocomplete="off" required>
+              <input type="email" name="email" placeholder="Email" onfocus="onFunction(this)" autocomplete="off" required>
                 <h3>Email</<h3>
             </div>
             <div class="input-box">
-              <textarea type="text" name ="subject" placeholder="Subject" rows="4" cols="25" autocomplete="off" required></textarea>
+              <textarea type="text" name ="subject" placeholder="Subject" rows="4" cols="25" onfocus="onFunction(this)" autocomplete="off" required></textarea>
                 <h3>Subject</h3>
               <button onclick="myFunction()" class="submit-btn" type="submit value="submit">Submit</button>
             </div>
           </form>
+          
+          <script>
+            function onFunction(x) {
+              x.style.background = "brown";
+            }
+          </script>                                                                                           
+                                                                                           
           <script>
             function myFunction() {
               let text = "It may take several minutes....";
@@ -121,14 +128,30 @@
     </div>
     <footer>
       <div class="container">
-        <div class="title">H2O<small> store</small></div>
-        <!----<p></p>------>
-        <p>&#169; 2023 H2O Store</p>
-          <div class="sosmed">
-            <i class="bi bi-facebook"></i>
-            <i class="bi bi-twitter"></i>
-            <i class="bi bi-instagram"></i>
-          </div>
+        <table border="0" width="100%" cellpadding="10">
+          <tr>
+            <td width="20%" valign="top">
+              <div class="title">H20<small> store</small><br></div>
+              <p>&#169; H20 store</p>
+            <br>
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-twitter"></i>
+                <i class="bi bi-instagram"></i>
+              </div>
+              <td width="20%" valign="top">
+                Services<br>
+                <p><a href="">Shirts</a></p>
+                <p><a href="">Backpack</a></p>
+                <p><a href="">About Investing</a></p>
+              </td>
+            <td width="50%" valign="top">
+              Information<br>
+              <p><a href="">Terms of Policies</a></p>
+              <p><a href="">Return Method</a></p>
+              <p><a href="">Blogs</a></p>
+            </td>
+          </tr>
+        </table>  
       </div>
     </footer>
   </body>
