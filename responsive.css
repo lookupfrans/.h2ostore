@@ -132,21 +132,16 @@
     .sosmed {
       display: flex;
       margin: 30px;
-  }
+    }
 
-  .title {
-    font-size: 20px;
-  }
+    .title {
+        font-size: 20px;
+    }
   
-  td {
-    font-size: 20px;
-  }
+    td {
+        font-size: 20px;
+    }
 
-  td p {
-    font-size: 10px;
-  }
-
-  .sosmed {
-    flex-direction: column;
-    margin-top: 30px;
-}
+    td p {
+        font-size: 10px;
+    }
