@@ -44,6 +44,7 @@
     margin-top: 15px;
     border: 1px solid #fff;
     font-family:'Roboto Mono', monospace;
+    margin-left: 510px;
   }
 
   .submit-btn:hover {
@@ -97,7 +98,6 @@
   }
 
   button {
-    float: right;
     margin-top: 60px;
     padding: 10px 30px;
     background-color: rgba(34, 49, 52, 0.0);
