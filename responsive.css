@@ -8,15 +8,6 @@
       display: none;
     }
 
-    small {
-      color: white;
-    }
-    
-    .header-left {
-      padding-left: 40px;
-      color: white;
-      opacity: 0.8;
-    }
     .box {
       width: 100%;
       margin: 0;
@@ -25,7 +16,7 @@
       width: 100%;
       text-align: center;
     }
-    
+
     .input-box {
       width: 100%;
       margin-left: 18px;
@@ -49,18 +40,22 @@
     .box-title {
       width: 100%;
       margin: 0;
+      margin-bottom: 20px;
+    }
+
+    small {
+      color: white;
+    }
+    
+    .header-left {
+      padding-left: 40px;
+      color: white;
+      opacity: 0.8;
     }
     
     h2 {
       color: black;
       opacity: 0.8;
-    }
-
-    footer {
-      text-align: left;
-      padding-left: 40px;
-      width:100%;
-      border-top: 1px solid black;
     }
     
     .btn {
@@ -136,14 +131,25 @@
       color: black;
       text-align: center;
     }
-    
+
     .sosmed {
-        margin-top: 10px;
-        width: 10%;
-        display: flex;
-        justify-content: space-between;
-        float: left;
-        cursor: pointer;
-    }
+      display: flex;
+      margin: 30px;
+  }
+
+  .title {
+    font-size: 20px;
   }
   
+  td {
+    font-size: 20px;
+  }
+
+  td p {
+    font-size: 10px;
+  }
+
+  .sosmed {
+    flex-direction: column;
+    margin-top: 30px;
+}
