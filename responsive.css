@@ -142,7 +142,7 @@
     }
 
     .title {
-      font-size: 20px;
+      font-size: 10px;
     }
 
     footer {
@@ -152,11 +152,11 @@
   
     td {
       width: 100%;
-      font-size: 20px;
+      font-size: 5px;
       margin: 0;
     }
 
     td p {
-      font-size: 10px;
+      font-size: 5px;
     }
 }
