@@ -139,12 +139,13 @@
     .message-wrapper {
       padding: 180px 0 100px 0;
       color: white;
-    }
-    
-    .lesson-wrapper {
-      margin: 0;
       width: 100%;
     }
+    
+    /*.lesson-wrapper {
+      margin: 0;
+      width: 100%;
+    }*/
  
      h3 {
      font-size: 12px;
