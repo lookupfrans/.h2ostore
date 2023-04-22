@@ -57,6 +57,7 @@
     h2 {
       color: white;
       opacity: 0.8;
+      margin: 0;
     }
     
     .btn {
@@ -114,6 +115,7 @@
     h1 {
       color: white;
       padding: 0 0;
+      margin: 0
     }
     
     p {
