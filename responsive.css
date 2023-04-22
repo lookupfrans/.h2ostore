@@ -7,6 +7,18 @@
     .header-right {
       display: none;
     }
+    
+    .sidenav {
+      height: 100%; 
+      width: 100%;
+      z-index: 1; 
+      top: 0; 
+      left: 0;
+      background-image: linear-gradient(to right, red, yellow);
+      overflow-x: hidden; 
+      padding-top: 60px; 
+      transition: 0.5s; 
+     }
 
     .box {
       width: 100%;
