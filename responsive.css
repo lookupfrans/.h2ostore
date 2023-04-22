@@ -12,10 +12,11 @@
       width: 100%;
       margin: 0;
     }
-    .container {
+
+    /*.container {
       width: 100%;
       /*text-align: center;*/
-    }
+    }*/
 
     .input-box {
       width: 100%;
@@ -146,10 +147,10 @@
       width: 100%;
     }
     
-    /*.lesson-wrapper {
+    .lesson-wrapper {
       margin: 0;
       width: 100%;
-    }*/
+    }
  
      h3 {
      font-size: 12px;
