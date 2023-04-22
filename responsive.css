@@ -20,7 +20,7 @@
 
     .input-box {
       width: 100%;
-      margin-left: 0px;
+      margin-left: 90px;
     }
     
     input {
@@ -34,10 +34,11 @@
       margin: 0;
       color: white;
       text-align: center;
+      margin-left: 90px
     }
 
     .submit-btn {
-      width: 100%;
+      margin-left: 90px;
       margin: 0;
       border: 1px solid #000;
       margin-bottom: 10px;
