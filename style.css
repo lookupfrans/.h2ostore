@@ -51,7 +51,9 @@
     margin-top: 15px;
     border: 1px solid #fff;
     font-family: 'Cormorant', serif;
-    margin-left: 510px;
+    margin-left: 515px;
+    border-radius: 10px;
+    box-shadow: 0 2xpx #1a7940;
   }
 
   .submit-btn:hover {
@@ -361,7 +363,7 @@ h2 {
   
   .heading h2 {
     font-weight: normal;
-    opacity: 0.8;
+    color: white;
   }
   
   .lesson {
