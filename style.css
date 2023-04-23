@@ -57,7 +57,7 @@
   }
 
   .submit-btn:hover {
-    background-image: linear-gradient(to right, blue, white);
+    background-color: #011352;
   }
 
   .input-box h3 {
