@@ -4,7 +4,7 @@
   
   body {
     margin: 0;
-    font-family:'Roboto Mono', monospace;
+    font-family: 'Cormorant', serif;
     background-color: rgba(34, 49, 52, 0.9);
   }
 
@@ -24,7 +24,7 @@
     text-align: center;
     margin-bottom: 20px;  
     border: 2px solid red;
-    background-color: wheat;
+    background-image: linear-gradient(to right, blue, white);
     border-radius: 12px;
     padding: 5px;
     inline-size: 260px;
@@ -50,12 +50,12 @@
     text-align: center;
     margin-top: 15px;
     border: 1px solid #fff;
-    font-family:'Roboto Mono', monospace;
+    font-family: 'Cormorant', serif;
     margin-left: 510px;
   }
 
   .submit-btn:hover {
-    background-color: brown;
+    background-image: linear-gradient(to right, blue, white);
   }
 
   .input-box h3 {
@@ -125,7 +125,7 @@
   z-index: 1; 
   top: 0; 
   left: 0;
-  background-image: linear-gradient(to right, red, yellow);
+  background-image: linear-gradient(to right, blue, white);
   overflow-x: hidden; 
   padding-top: 60px; 
   transition: 0.5s; 
@@ -220,23 +220,23 @@ h2 {
   }
   
   .signup {
-    background-color: brown;
-    font-family:'Roboto Mono', monospac
+    background-image: linear-gradient(to right, blue, white);
+    font-family: 'Cormorant', serif;
     opacity: 0.8;
   }
   
   .facebook {
-    background-color: brown;
+    background-image: linear-gradient(to right, blue, white);
     margin-right: 80px;
     margin-left: 50px;
-    font-family:'Roboto Mono', monospace;
+    font-family: 'Cormorant', serif;
     opacity: 0.8;
   }
   
   .twitter {
-    background-color: brown;
+    background-image: linear-gradient(to right, blue, white);
     margin-right: 70px;
-    font-family:'Roboto Mono', monospace;
+    font-family: 'Cormorant', serif;
     opacity: 0.8;
   }
   
@@ -265,7 +265,7 @@ h2 {
     position :fixed;
     top: 0;
     z-index: 10;
-    background-image: linear-gradient(to right, red, yellow);
+    background-image: linear-gradient(to right, blue, white);
   }
   
   
@@ -417,7 +417,7 @@ h2 {
   
   .message {
     padding: 15px 40px;
-    background-color: brown;
+    background-image: linear-gradient(to right, blue, white);
     cursor: pointer;
     box-shadow: 0 7px #1a7940;
   }
@@ -451,7 +451,7 @@ h2 {
     padding-top: 30px;
     padding-bottom: 20px;
     background-color: rgba(34, 49, 52, 0.9);
-    background-image: linear-gradient(to left, red, yellow);
+    background-image: linear-gradient(to right, blue, white);
   }
 
 .title {
