@@ -416,13 +416,20 @@ h2 {
     /*background-image: url(jpg5.jpg);*/
     opacity: 0.5;
   }
-  
-  .message {
-    padding: 15px 40px;
+
+.message-wrapper a {
+    padding: 15px 20px;
     background-image: linear-gradient(to right, blue, white);
     cursor: pointer;
     box-shadow: 0 7px #1a7940;
   }
+  
+  /*.message {
+    padding: 15px 40px;
+    background-image: linear-gradient(to right, blue, white);
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
+  }*/
   
   .message:active {
     position: relative;
