@@ -53,6 +53,10 @@
       margin: 0;
       margin-bottom: 20px;
     }
+    
+     .title {
+      color: black;
+    }
 
     small {
       color: white;
