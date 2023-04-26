@@ -30,6 +30,19 @@
       color: white;
       text-align: center;
     }
+    
+     .sidenav a {
+        font-size: 20px;
+        padding: 8px 8px 8px 32px;
+    }
+    
+    .sidenav .closebtn {
+      position: absolute;
+      top: 0;
+      right: 10px;
+      font-size: 36px;
+      margin-left: 50px;
+     }
 
     textarea {
       margin: 0;
@@ -39,7 +52,7 @@
     }
 
     .submit-btn {
-      margin-left: 90px;
+      margin-left: 100px;
       margin: 0;
       border: 1px solid #000;
       margin-bottom: 10px;
