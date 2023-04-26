@@ -5,7 +5,8 @@
   body {
     margin: 0;
     font-family: 'Cormorant', serif;
-    background-color: rgba(34, 49, 52, 0.9);
+    /*background-color: rgba(34, 49, 52, 0.9);*/
+    background: black;
   }
 
   textarea {
