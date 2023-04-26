@@ -427,7 +427,7 @@ h2 {
     text-align: center;
     background-size: cover;
     /*background-image: url(jpg5.jpg);*/
-    opacity: 0.5;
+    /*opacity: 1;*/
   }
 
 .message-wrapper a {
