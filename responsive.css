@@ -74,6 +74,7 @@
 
     small {
       color: white;
+      opacity: 0.5;
     }
     
     .header-left {
