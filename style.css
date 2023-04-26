@@ -194,11 +194,23 @@ h2 {
   }
   
   .top-wrapper {
-    padding: 180px 0 100px 0;
+   padding: 180px 0 100px 0;
     background-image: url(bg3.jpg);
     background-size: cover;
     color: white;
     text-align: center;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 0.5;
+    animation-fill-mode: backwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
   }
   
   .top-wrapper h1 {
