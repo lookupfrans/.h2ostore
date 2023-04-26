@@ -215,6 +215,11 @@
       opacity: 0.7;
       color: white;
     }
+    
+    
+    footer td {
+      font-size: 18px;
+    }
   
     td {
       width: 100%;
