@@ -10,7 +10,7 @@
   }
 
   textarea {
-    overflow-y: scroll;
+    overflow: hidden;
     margin-left: 420px;
   }
 
