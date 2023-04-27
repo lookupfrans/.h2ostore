@@ -1,6 +1,18 @@
 
 @media all and (max-width: 670px) {
-    .lesson {
+   header {
+     background: #00008b;
+    }
+
+   footer {
+     background: #00008b;
+    }
+
+   .sidenav {
+     background: #00008b;
+    }
+    
+   .lesson {
       width: 100%;
     }
     
