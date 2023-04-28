@@ -57,8 +57,13 @@
         color: white;
     }
     
+    b {
+        color: white
+    }
+    
      .message-wrapper {
         width: 100%;
+        margin: 0;
     }
     
      p {
