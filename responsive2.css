@@ -86,9 +86,7 @@
     
     input[type=submit] {
         margin-bottom: 0px;
-        background: #00008b;
-        opacity: 0.3;
-        /*color: white;*/
+        color: white;
     }
     
     input[type=submit]:hover {
