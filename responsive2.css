@@ -11,7 +11,7 @@
     
     mark {
       opacity: 0.2;
-      background-color= transparent;
+      display: none;
     }
     
     small {
