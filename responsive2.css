@@ -57,6 +57,14 @@
         color: white;
     }
     
+     .message-wrapper {
+        width: 100%;
+    }
+    
+     p {
+        color: white;
+    }
+    
      .menu-icon {
         display: block;
     }
