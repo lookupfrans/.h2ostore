@@ -16,7 +16,7 @@
     
     .inp {
       color: white;
-      margin-bottom: 1px solid #eee;
+      border-bottom: 1px solid #eee;
     }
     
     textarea {
