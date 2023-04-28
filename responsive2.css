@@ -10,7 +10,8 @@
     }
     
     mark {
-      color: rgba(34, 49, 52, 0.9);
+      color: white;
+      text-decoration: underlined;
     }
     
     small {
