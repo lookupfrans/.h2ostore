@@ -14,8 +14,12 @@
       opacity: 0.5;
     }
     
-    input {
+    .inp {
       color: white;
+    }
+    
+    textarea {
+        color: white;
     }
     
     .header-left {
