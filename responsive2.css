@@ -22,7 +22,7 @@
     textarea {
         color: white;
         border-bottom: 1px solid #eee;
-        width: 70%;
+        width: 50%;
     }
     
     .header-left {
@@ -73,7 +73,7 @@
     }
 
     .scroll {
-        width: 100%;
+        width: 70%;
         margin: 0;
     }
     
