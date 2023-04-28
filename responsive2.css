@@ -84,12 +84,17 @@
         margin: 0;
     }
     
-    input [type=submit] {
+    input[type=submit] {
         margin-bottom: 0px;
         background: #00008b;
-        color: white;
+        /*color: white;*/
     }
-
+    
+    input[type=submit]:hover {
+        background: #00008b;
+        /*color: white;*/
+    }
+    
     .scroll {
         width: 70%;
         margin: 0;
