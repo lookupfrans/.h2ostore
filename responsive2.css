@@ -19,8 +19,8 @@
       border-bottom: 1px solid #eee;
     }
     
-    p mark {
-        color: white;
+    mark {
+        color: red;
     }
     
     textarea {
