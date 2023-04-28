@@ -21,6 +21,7 @@
     
     textarea {
         color: white;
+        border-bottom: 1px solid #eee;
     }
     
     .header-left {
