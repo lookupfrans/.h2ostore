@@ -252,8 +252,10 @@
 
  .info1 input[type=submit] {
     margin-top: 50px;
+    background-color: #011352;
     padding: 5px;
     border-radius: 5px;
+    cursor: pointer;
  }
 
  .info1 input[type=submit]:hover {
