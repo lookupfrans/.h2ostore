@@ -41,6 +41,7 @@
       margin: 0px;
       color: white;
       text-align: center;
+      margin-top: 20px;
     }
     
    .sidenav a {
@@ -72,6 +73,8 @@
       color: white;
       text-align: center;
       background-color: #011352;
+      margin-left: 100px;
+      margin-top: 10px;
     }
 
     .box-title {
