@@ -63,7 +63,7 @@
         margin: 0;
     }
     
-    input [type-submit] {
+    input [type=submit] {
         margin-bottom: 0px;
         background: #00008b;
     }
@@ -71,7 +71,6 @@
     .scroll {
         width: 100%;
         margin: 0;
-        background: #00008b;
     }
     
     .title {
