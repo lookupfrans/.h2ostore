@@ -61,6 +61,7 @@
     
     input [type-submit] {
         margin-bottom: 0px;
+        background: #00008b;
     }
 
     .scroll {
