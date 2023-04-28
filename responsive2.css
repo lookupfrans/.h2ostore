@@ -9,6 +9,10 @@
         margin-bottom: 60px;
     }
     
+    mark {
+      opacity: 0.2;
+    }
+    
     small {
       color: white;
       opacity: 0.5;
