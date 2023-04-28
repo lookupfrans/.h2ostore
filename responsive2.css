@@ -19,6 +19,10 @@
       border-bottom: 1px solid #eee;
     }
     
+    p mark {
+        color: white;
+    }
+    
     textarea {
         color: white;
         border-bottom: 1px solid #eee;
