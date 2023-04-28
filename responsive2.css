@@ -10,8 +10,7 @@
     }
     
     mark {
-      opacity: 0.2;
-      display: none;
+      color: rgba(34, 49, 52, 0.9);
     }
     
     small {
