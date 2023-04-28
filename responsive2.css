@@ -14,7 +14,7 @@
     }
     
     h1 {
-        font-size: 13px;
+        font-size: 25px;
         margin-top: 50px;
         color: white;
     }
@@ -30,7 +30,7 @@
     }
     
     input [type-submit] {
-        margin-bottom: 20px;
+        margin-bottom: 0px;
     }
 
     .scroll {
