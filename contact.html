@@ -47,12 +47,26 @@
                 <div class="info1">
                     <h4>Message</h4>
                         <textarea class="scroll" placeholder="Enter your subject"></textarea><br>
-                        <input type="submit" value="Submit" />
+                        <input type="submit" onclick="myFunction()" value="Submit" />
                 </div>
             <div>
         </div>
     </div>
     
+    <script>
+                                                                           
+        function myFunction() {
+        let text = "It may take several minutes....";
+        if (confirm(text) == true) {
+          text = "You pressed OK!";
+        } else {
+          text = "You canceled!";
+        }
+        document.getElementById("submit").innerHTML = text;
+      }
+        
+    </script>
+
 
       <footer>
         <div class="container">
