@@ -4,6 +4,18 @@
       text-align: center;
       justify-content: center;
    }*/
+   
+    header {
+     background: #00008b;
+    }
+
+   footer {
+     background: #00008b;
+    }
+
+   .sidenav {
+     background: #00008b;
+    }
   
    .input-box h3 {
       color: white;
