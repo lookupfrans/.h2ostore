@@ -1,23 +1,27 @@
 @media all and (max-width: 1000px) {
    .box-title {
-      margin-right: 60px;
+      margin-left: 5px;
    }
   
    .input-box h3 {
       color: white;
       font-size: 15px;
+      color: #eee;
    }
    
-   submit-btn {
+   .submit-btn {
       color: white;
+      color: #eee;
    }
    
    .fa {
       color: white;
+      color: #eee;
    }
    
    .title {
       color: white;
+      color: #eee;
    }
 }
 
