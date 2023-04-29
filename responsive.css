@@ -36,11 +36,11 @@
     }*/
 
     .message {
-     background-color: #00008b;
+     background: #00008b;
     }
 
-    a .message {
-     background-color: #00008b;
+    a [class=message] {
+     background: #00008b;
     }
 
     .box-title {
