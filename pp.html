@@ -12,8 +12,14 @@
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <script src="auto.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
+   <div class="loader">
+    <img class="image-title" alt="" src="../img/jpg6.jpg"/>
+    <div></div>
+  </div>
+  <div class="content">
   <header>
     <div class="container">
       <div class="header-left">
@@ -33,6 +39,7 @@
     </div>
   </header>
 
+  <div class="content">
   <div class="message-wrapper">
     <div class="container">
       <h1 style="margin-top: 250px; text-align: center; font-family: 'Cormorant',; padding-top: 30px; opacity: 0.5;">Privacy Policy</h1>
@@ -44,9 +51,7 @@
       Don't be worry, we collect and securely store this informaation.  We do not share this information with anyone else. Despite, it may be accessed by staff or assistants who help with our social media marketing, but we do not allow anyone to collect or store this information. This data is stored with us indefinitely, or until the client may wish to remove
       their contact information from our mailing list, at which point it is deleted from our files.
       If you wish to unsubscribe from our mailing list you are welcome to do this at any time.</p>
-
     </div>
-
   </div>
 
 
@@ -91,7 +96,13 @@
       </table>  
     </div>
   </footer>
-
+</div>
+  <script>
+      $(window).on('load', function() {
+        $(".loader").fadeOut(1000);
+        $(".content").fadeIn(1000);
+      });
+  </script>
 
 </body>
 </html>
