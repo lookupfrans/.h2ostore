@@ -21,8 +21,8 @@ x {
   }
 
   .loader > .image-title {
-    height: 50px;
-    width: 150px;
+    height: 100px;
+    width: 300px;
     justify-content: center;
     align-items: center;
     /*border-top-color: #2a88e6;
