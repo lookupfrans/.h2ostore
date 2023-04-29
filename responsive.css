@@ -1,5 +1,11 @@
-/*@media all and (max-width: 1026px) {
-   body {
+@media all and (max-width: 1080px) {
+   .message-wrapper {
+      margin-right: 50px;
+   }
+}
+
+
+   /*body {
      display: none;
    }
 
