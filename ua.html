@@ -12,8 +12,14 @@
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <script src="auto.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
+  <div class="loader">
+    <img class="image-title" alt="" src="../img/jpg6.jpg"/>
+    <div></div>
+  </div>
+  <div class="content">
   <header>
     <div class="container">
       <div class="header-left">
@@ -32,7 +38,8 @@
       <!---<div class="header-right">Login</div>--->
     </div>
   </header>
-
+    
+<div class="content">
   <div class="message-wrapper">
     <div class="container">
       <h1 style="margin-top: 250px; text-align: center; font-family: 'Cormorant',; padding-top: 30px; opacity: 0.5;">User Agreement</h1>
@@ -47,9 +54,7 @@
         <p style="padding-bottom: 40px; text-align: justify; margin-top: 10px;">For posted items which are undelivered, we request notification within 2 weeks, so that the item may be tracked and recovered. Any posted items which remain undelivered 
         and unnotified to us, may be destroyed by the postal service within 1-2 months on non-delivery. We cannot merely be <mark style="color:yellow">responsible</mark> for those such items which we have mailed and yet 
         have not been notified of their undelivery within this time frame.</p>
-
     </div>
-
   </div>
 
 
@@ -94,7 +99,14 @@
       </table>  
     </div>
   </footer>
-
+</div>
+</div>
+    <script>
+      $(window).on('load', function() {
+        $(".loader").fadeOut(1000);
+        $(".content").fadeIn(1000);
+      });
+    </script>
 
 </body>
 </html>
