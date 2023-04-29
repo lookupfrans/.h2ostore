@@ -20,7 +20,12 @@
       justify-content: center;
    }
    
-   .fa {
+   .fab {
+      color: white;
+      color: #eee;
+   }
+   
+   .fa-brands {
       color: white;
       color: #eee;
    }
