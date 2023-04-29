@@ -34,6 +34,14 @@
    /*.box-wrapper {
      background: #00008b;
     }*/
+
+    .heading h2 {
+     background: #00008b;
+    }
+
+    .box-title {
+     background: #00008b;
+    }
    
    .sidenav {
      background: #00008b;
