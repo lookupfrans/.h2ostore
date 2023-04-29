@@ -1,6 +1,10 @@
-@media all and (max-width: 1080px) {
-   .message-wrapper {
-      margin-right: 50px;
+@media all and (max-width: 1000px) {
+   .box-title {
+      margin-right: 150px;
+   }
+  
+   h3 {
+      color: white;
    }
 }
 
