@@ -35,12 +35,13 @@
      background: #00008b;
     }*/
 
-    a .message {
+    a {
      background: #00008b;
     }
 
     .box-title {
      background: #00008b;
+     color: white;
     }
    
    .sidenav {
