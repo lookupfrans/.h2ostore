@@ -1,3 +1,17 @@
+@media all and (max-width: 1080px) {
+   body {
+     display: none;
+   }
+
+   header {
+     display: none;
+   }
+
+   footer {
+     display: none;
+   }
+}
+
 
 @media all and (max-width: 670px) {
    header {
