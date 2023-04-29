@@ -1,17 +1,23 @@
 @media all and (max-width: 1000px) {
    .box-title {
-      margin-left: 5px;
+      margin-right: 200px;
+      text-align: center;
+      justify-content: center;
    }
   
    .input-box h3 {
       color: white;
       font-size: 15px;
       color: #eee;
+      text-align: center;
+      justify-content: center;
    }
    
    .submit-btn {
       color: white;
       color: #eee;
+      text-align: center;
+      justify-content: center;
    }
    
    .fa {
