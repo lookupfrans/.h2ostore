@@ -39,7 +39,7 @@
      background: #00008b;
     }
 
-    a [class=message] {
+    .message-wrapper .message {
      background: #00008b;
     }
 
