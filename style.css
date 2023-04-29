@@ -58,8 +58,6 @@
     display: none;
   }
 
-
-
   x {
     cursor: pointer;
     float: right;
@@ -116,7 +114,7 @@
     border: 1px solid #fff;
     font-family: 'Cormorant', serif;
     border-radius: 10px;
-    box-shadow: 0 2xpx #1a7940;
+    box-shadow: 0 2px #1a7940;
   }
 
   .submit-btn:hover {
@@ -130,7 +128,7 @@
     
   h3 {
     margin: 5px;
-    padding-left: 45px; 
+    padding-left: 30px; 
     /*font-family:'Roboto Mono', monospace;*/
     text-align: center;
     margin-right: 40px;
