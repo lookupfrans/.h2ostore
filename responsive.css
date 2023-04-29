@@ -1,4 +1,4 @@
-@media all and (max-width: 1026px) {
+/*@media all and (max-width: 1026px) {
    body {
      display: none;
    }
@@ -22,7 +22,7 @@
    footer {
      display: none;
    }
-}
+}*/
 
 
 @media all and (max-width: 670px) {
