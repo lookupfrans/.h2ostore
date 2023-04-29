@@ -1,9 +1,9 @@
-/*@media all and (max-width: 1000px) {
-   .box-title {
+@media all and (max-width: 1000px) {
+   /*.box-title {
       margin-right: 200px;
       text-align: center;
       justify-content: center;
-   }
+   }*/
   
    .input-box h3 {
       color: white;
@@ -25,7 +25,7 @@
       color: #eee;
    }
    
-   .title {
+   /*.title {
       color: white;
       color: #eee;
    }
