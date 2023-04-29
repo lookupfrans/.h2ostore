@@ -31,9 +31,9 @@
      background: #00008b;
     }*/
 
-   .box-wrapper {
+   /*.box-wrapper {
      background: #00008b;
-    }
+    }*/
    
    .sidenav {
      background: #00008b;
@@ -56,6 +56,11 @@
       color: #eee;
       text-align: center;
       justify-content: center;
+   }
+
+   .fa {
+      color: white;
+      color: #eee
    }
    
    .fab {
