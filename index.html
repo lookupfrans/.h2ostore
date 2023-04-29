@@ -7,16 +7,22 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <script src="auto.js"></script>
-  </head>
-  <body>
-    <header>
-      <div class="container">
-        <div class="header-left">
-          <a href="index.html" class="title">H2O<small> store</small></div>
+    </head>
+    <body>
+      <div class="loader">
+        <img class="image-title" alt="" src="../img/jpg6.jpg"/>
+        <div></div>
+      </div>
+      <div class="content">
+      <header>
+        <div class="container">
+          <div class="header-left">
+            <a href="index.html" class="title">H2O<small> store</small></div>
         </div>
         <div id="mySidenav" class="sidenav">
           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -29,23 +35,24 @@
         <div id="main">
         </div>
         <!---<div class="header-right">Login</div>--->
-      </div>
-    </header>
-     <div class="top-wrapper">
-      <div class="container">
-        <h1>WELCOME TO THE H2O STORE<span>!</span></h1>
-        <h1>WE PRESENT FOR LOCAL AND INTERNATIONAL COLLECTION OF T-SHIRTS, SHIRTS, ACCESSORIES, BACKPACKS, HATS, AND BENIES</h1>
-        <p>At present we create local brands.</p>
-        <p>We are passionate about designing and innovating in fashion. 
+       </div>
+      </header>
+      <div class="top-wrapper">
+        <div class="container">
+          <h1>WELCOME TO THE H2O STORE<span>!</span></h1>
+          <h1>WE PRESENT FOR LOCAL AND INTERNATIONAL COLLECTION OF T-SHIRTS, SHIRTS, ACCESSORIES, BACKPACKS, HATS, AND BENIES</h1>
+          <p>At present we create local brands.</p>
+          <p>We are passionate about designing and innovating in fashion. 
           We develop high quality products, accessories and more in close cooperation with our customers and partners.</p>
-        <div class="btn-wrapper">
-          <a href="index.html" class="btn signup">Shop</a>
-          <p></p>
-          <!--<a href="index.html" class="btn facebook">Accesories</a>
-          <a href="index.html" class="btn twitter">Backpack</a>-->
+         <div class="btn-wrapper">
+         <a href="index.html" class="btn signup">Shop</a>
+         <p></p>
+         <!--<a href="index.html" class="btn facebook">Accesories</a>
+         <a href="index.html" class="btn twitter">Backpack</a>-->
         </div>
       </div>
     </div>
+        
     <div class="lesson-wrapper">
       <div class="container">
         <div class="heading">
@@ -119,31 +126,34 @@
         </div>
       </div>
     </div>
-    <div class="message-wrapper">
-      <div class="container">
-        <div class="heading">
-          <h2>Don't wait any longer anymore</h2>
+        
+    <div class="content">    
+      <div class="message-wrapper">
+        <div class="container">
+          <div class="heading">
+            <h2>Don't wait any longer anymore</h2>
+          </div>
+          <a href="index.html" class="message">Grab yours soon!</a>
         </div>
-        <a href="index.html" class="message">Grab yours soon!</a>
       </div>
-    </div>
-    <div class="container">
-      <div class="box-title">Join the community</div>
+      <div class="container">
+        <div class="box-title">Join the community</div>
           <form action="confirm.html">
             <!--<div class="input-box">
-              <input type="text" name="username"  placeholder="Enter your username" onfocus="onFunction(this)" autocomplete="off" required>
-                <h3>Username</h3>
-            </div>-->
-            <div class="input-box">
-              <input type="email" name="email" placeholder="Enter your email" onfocus="onFunction(this)" autocomplete="off" required>
-                <h3>Email</<h3>
-            </div>
-            <!--<div class="input-box">
-              <textarea type="text" name ="subject" placeholder="Enter your subject" rows="4" cols="25" maxlength="200" onfocus="onFunction(this)" autocomplete="off" required></textarea>
-                <h3>Subject</h3>-->
-              <button onclick="myFunction()" class="submit-btn" type="submit value="submit">Submit</button>
-            </div>
+                  <input type="text" name="username"  placeholder="Enter your username" onfocus="onFunction(this)" autocomplete="off" required>
+                  <h3>Username</h3>
+                </div>-->
+                <div class="input-box">
+                  <input type="email" name="email" placeholder="Enter your email" onfocus="onFunction(this)" autocomplete="off" required>
+                  <h3>Email</<h3>
+                </div>
+                <!--<div class="input-box">
+                  <textarea type="text" name ="subject" placeholder="Enter your subject" rows="4" cols="25" maxlength="200" onfocus="onFunction(this)" autocomplete="off" required></textarea>
+                  <h3>Subject</h3>-->
+                  <button onclick="myFunction()" class="submit-btn" type="submit value="submit">Submit</button>
+                </div>
           </form>
+      </div> 
           
           <script>
             function onFunction(x) {
@@ -162,15 +172,18 @@
               document.getElementById("demo").innerHTML = text;
             }
          </script>
+        </div>
+      </div>
     </div>
-    <footer>
-      <div class="container">
-        <table border="0" width="100%" cellpadding="10">
-          <tr>
-            <td width="20%" valign="top">
-              <a href="index.html" class="title">H2O<small> store</small></a>
-              <p>&#169; H20 store</p>
-            <br>
+    <div class="content">
+      <footer>
+        <div class="container">
+          <table border="0" width="100%" cellpadding="10">
+            <tr>
+              <td width="20%" valign="top">
+                <a href="index.html" class="title">H2O<small> store</small></a>
+                <p>&#169; H20 store</p>
+                <br>
                 <i class="bi bi-facebook"></i>
                 <i class="bi bi-twitter"></i>
                 <i class="bi bi-instagram"></i><br>
@@ -178,32 +191,40 @@
                 <i class="fa-brands fa-google-pay"></i>
                 <i class="fab fa-apple-pay"></i><br>
                 <object data="https://4.bp.blogspot.com/-1uknxH71s9s/WwPYuFtpahI/AAAAAAAANos/MOR7gGcJR-8hlUQoSk0Tywqo8caAID0hACLcBGAs/s1600/Go%2BPay.jpg" width="20" />
-              </div>
+              </td>
               <td width="20%" valign="top">
                 Services<br>
-                <p><a href="index.html">Home</a></p>
-                <p><a href="">Shirts</a></p>
-                <p><a href="">Backpack</a></p>
-                <p><a href="">Accessories</a></p>
-                <p><a href="">H2O One Bite NFT</a></p>
+                  <p><a href="index.html">Home</a></p>
+                  <p><a href="">Shirts</a></p>
+                  <p><a href="">Backpack</a></p>
+                  <p><a href="">Accessories</a></p>
+                  <p><a href="">H2O One Bite NFT</a></p>
               </td>
-            <td width="20%" valign="top">
-              Information<br>
-              <p><a href="ua.html">User Agreement</a></p>
-              <p><a href="pp.html">Privacy Policy</a></p>
-              <p><a href="">Newsletter</a></p>
-              <p><a href="">Investor Takeaways</a></p>
-              <p><a href="">H2O store Local Affiliate</a></p>
-            </td>
-            <td width="20%" valign="top">
-              Find us on<br>
-              <p><a href="https://www.shopee.co.id/">Shopee</a></p>
-              <p><a href="https://www.tokopedia.com/">Tokopedia</a></p>
-              <p><a href="https://www.zalora.co.id/">Zalora</a></p>
-            </td>
-          </tr>
-        </table>  
-      </div>
+              <td width="20%" valign="top">
+               Information<br>
+                <p><a href="ua.html">User Agreement</a></p>
+                <p><a href="pp.html">Privacy Policy</a></p>
+                <p><a href="">Newsletter</a></p>
+                <p><a href="">Investor Takeaways</a></p>
+                <p><a href="">H2O store Local Affiliate</a></p>
+              </td>
+              <td width="20%" valign="top">
+                Find us on<br>
+                <p><a href="https://www.shopee.co.id/">Shopee</a></p>
+                <p><a href="https://www.tokopedia.com/">Tokopedia</a></p>
+                <p><a href="https://www.zalora.co.id/">Zalora</a></p>
+              </td>
+            </tr>
+          </table>  
+        </div>
     </footer>
+    </div>
+    <script>
+      $(window).on('load', function() {
+        $(".loader").fadeOut(5000);
+        $(".content").fadeIn(5000);
+      });
+    </script>
+                    
   </body>
 </html>
