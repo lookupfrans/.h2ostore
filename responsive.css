@@ -350,7 +350,7 @@
       height: 240px;
     }
 
-    .check {
+    .check [type=checkbox] {
       width; 50%;
     }
 
