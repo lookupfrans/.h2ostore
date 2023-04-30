@@ -350,6 +350,10 @@
       height: 240px;
     }
 
+    input [type=checkbox] {
+      width; 50%;
+    }
+
     label {
       color: white;
       color: #eee;
