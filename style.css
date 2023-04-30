@@ -16,10 +16,18 @@
     .check {
       font-size: 10px;
       cursor: pointer;
+      width: auto;
+      height: 10%;
     }
 
     .check .agreement {
       display: inline;
+    }
+
+    input [type=checkbox] {
+      width: 20%;
+      padding: 0;
+      margin: 0;
     }
 
   .content {
@@ -153,7 +161,7 @@
     opacity: 1;
   }
 
-  input [type=email] {
+  input {
     top: -18px;
     left: 0px;
     color: white;
