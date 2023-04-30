@@ -149,6 +149,10 @@
                   <input type="email" name="email" placeholder="Enter your email" onfocus="onFunction(this)" autocomplete="off" required>
                   <h3>Email</<h3>
                 </div>
+                <div class="check">
+                  <input type="checkbox" id="myCheckbox" class="check" name="true">
+                  <label for="agreement">This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.</label>
+                </div> 
                 <!--<div class="input-box">
                   <textarea type="text" name ="subject" placeholder="Enter your subject" rows="4" cols="25" maxlength="200" onfocus="onFunction(this)" autocomplete="off" required></textarea>
                   <h3>Subject</h3>-->
@@ -158,6 +162,11 @@
          </form>
        </div> 
       </div>
+                                                                                               
+      <script>
+        var checkbox = document.getElementById("myCheckbox");
+	        checkbox.indeterminate = true;
+      </script>
           
           <script>
             function onFunction(x) {
