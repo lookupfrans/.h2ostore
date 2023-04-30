@@ -9,6 +9,19 @@
     background: black;
   }
 
+    input:indeterminate {
+      box-shadow: 0 0 5px 5px red;
+    }
+
+    .check {
+      font-size: 10px;
+      cursor: pointer;
+    }
+
+    .check .agreement {
+      display: inline;
+    }
+
   .content {
     display: none;
   }
