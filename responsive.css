@@ -5,6 +5,10 @@
       justify-content: center;
    }*/
 
+    .check [type=checkbox] {
+      width: 10%;
+    }
+
     label {
       color: white;
       color: #eee;
@@ -348,6 +352,10 @@
       margin: 0;
       width: 100%;
       height: 240px;
+    }
+
+    .check [type=checkbox] {
+      width: 10%;
     }
 
     label {
