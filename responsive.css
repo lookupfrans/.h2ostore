@@ -4,6 +4,11 @@
       text-align: center;
       justify-content: center;
    }*/
+
+    label .agreement {
+      color: white;
+      opacity: 0.8;
+    }
    
     header {
      background: #00008b;
@@ -344,7 +349,7 @@
       height: 240px;
     }
 
-    .agreement {
+    label .agreement {
       color: white;
       opacity: 0.8;
     }
