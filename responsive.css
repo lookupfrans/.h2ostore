@@ -5,8 +5,9 @@
       justify-content: center;
    }*/
 
-    label .agreement {
+    label {
       color: white;
+      color: #eee;
       opacity: 0.8;
     }
    
@@ -349,8 +350,9 @@
       height: 240px;
     }
 
-    label .agreement {
+    label {
       color: white;
+      color: #eee;
       opacity: 0.8;
     }
     
