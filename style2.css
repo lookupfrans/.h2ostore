@@ -9,6 +9,10 @@
     background: black;
   }
 
+.honeypot-field {
+    display: none;
+  }
+
 .content {
     display: none;
   }
