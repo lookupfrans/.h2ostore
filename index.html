@@ -140,7 +140,8 @@
      <div class="box-wrapper">
       <div class="container">
         <div class="box-title">Join the community</div>
-          <form action="confirm.html">
+          <form class="gform pure-form pure-form-stacked" method="POST" data-email="fransen.steven.roby@gmail.com"
+            action="https://script.google.com/macros/s/AKfycbz9XPGl8lehOKZqJZIUhbY9bOXDpjgPeaTVFohRtMd9M1EAvLmEODcQeFNmIK3ir52i/exec">
             <!--<div class="input-box">
                   <input type="text" name="username"  placeholder="Enter your username" onfocus="onFunction(this)" autocomplete="off" required>
                   <h3>Username</h3>
@@ -156,13 +157,27 @@
                 <!--<div class="input-box">
                   <textarea type="text" name ="subject" placeholder="Enter your subject" rows="4" cols="25" maxlength="200" onfocus="onFunction(this)" autocomplete="off" required></textarea>
                   <h3>Subject</h3>-->
+		 <fieldset class="pure-group honeypot-field">
+                    <label for="honeypot">To help avoid spam, utilize a Honeypot technique with a hidden text field; must be empty to submit the form! Otherwise, we assume the user is a spam bot.</label>
+                    <input id="honeypot" type="text" name="honeypot" value="" />
+                 </fieldset>
                  <div class="submit-wrapper">
                   <button onclick="myFunction()" class="submit-btn" type="submit value="submit">Submit</button>
+		  <!--<p id="submission"></p>-->
                  </div>
          </form>
        </div> 
       </div>
-                                                                                               
+           
+	<div class="thankyou_message" style="display:none;">
+          <h2><em>Thanks</em> for contacting us!
+            We will get back to you soon!</h2>
+        </div>
+
+        <script data-cfasync="false" src="handler.js"></script>
+					
+					
+					
       <script>
         var checkbox = document.getElementById("myCheckbox");
 	        checkbox.indeterminate = true;
@@ -178,13 +193,11 @@
             function myFunction() {
               let text = "It may take several minutes....";
               if (confirm(text) == true) {
-                text = "You pressed OK!";
-              } else {
-                text = "You canceled!";
-              }
-              document.getElementById("demo").innerHTML = text;
+                location.replace("https://h2ostr.vercel.app/confirm.html?email=as%40gmail.com&true=on")
+              } 
+                document.getElementById("submission").innerHTML = text;
             }
-         </script>
+          </script>
        
     <div class="content">
       <footer>
