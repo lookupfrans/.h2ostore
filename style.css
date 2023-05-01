@@ -9,6 +9,10 @@
     background: black;
   }
 
+  fieldset {
+    display: none;
+  }
+
  .honeypot-field {
     display: none;
   }
