@@ -133,6 +133,7 @@
 
    .btn-wrapper .signup {
      color: white;
+     opacity: 0.5;
     }
    
     .input-box [placeholder]:focus::-webkit-input-placeholder {
