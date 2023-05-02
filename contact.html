@@ -73,15 +73,17 @@
 
      <script data-cfasync="false" src="handler.js"></script>
 
-      <script>
-        function myFunction() {
-          let text = "It may take several minutes....";
-          if (confirm(text) == true) {
-            location.replace("https://h2ostr.vercel.app/confirm.html?email=as%40gmail.com&true=on")
-          } 
-            document.getElementById("submission").innerHTML = text;
-        }
-     </script>
+       <script>
+            function myFunction() {
+              let text = "It may take several minutes....";
+              if (confirm(text) == true) {
+                text.location.replace("https://h2ostr.vercel.app/confirm.html?email=as%40gmail.com&true=on")
+              } else {
+                text = "";
+              }
+                document.getElementById("submission").innerHTML = text;
+            }
+          </script>
 
     <div class="content">
       <footer>
