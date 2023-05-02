@@ -132,7 +132,7 @@
     }
 
    .signup {
-     background: #00008b;
+     color: #eee;
     }
    
     .input-box [placeholder]:focus::-webkit-input-placeholder {
