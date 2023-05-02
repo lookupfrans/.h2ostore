@@ -42,32 +42,29 @@
             <div class="container">
                 <h1>Contact Us</h1>
                 <hr>
-                <div class="info">
-                    <form class="gform pure-form pure-form-stacked" method="POST" data-email="fransen.steven.roby@hotmail.com"
-                        action="https://script.google.com/macros/s/AKfycbz9XPGl8lehOKZqJZIUhbY9bOXDpjgPeaTVFohRtMd9M1EAvLmEODcQeFNmIK3ir52i/exec">
-                        <h4>Name</h4>
-                            <input class="inp" placeholder="Enter your name" autocomplete="off" required />
-                </div>
-                <div class="info">
-                    <h4>Email</h4>
-                        <input class="inp" placeholder="Enter your email" autocomplete="off" required />
-                </div>
-                <div class="info1">
-                    <h4>Message</h4>
-                        <textarea class="scroll" placeholder="Enter your subject" maxlength="300"></textarea><br>
-                        <!--<form method="POST" action="blank.html">-->
-                            <fieldset class="pure-group honeypot-field">
-                                <label for="honeypot">To help avoid spam, utilize a Honeypot technique with a hidden text field; must be empty to submit the form! Otherwise, we assume the user is a spam bot.</label>
-                                <input id="honeypot" type="text" name="honeypot" value="" />
-                                </fieldset>
-                                <input type="submit" onclick="myFunction()" value="Submit" />
-                                <!--<p id="submission"></p>-->
-                        </form>
-                    </form>
-                </div>
-            <div>
-        </div>
-    </div>
+                <form class="gform pure-form pure-form-stacked" method="POST" data-email="fransen.steven.roby@hotmail.com"
+                    action="https://script.google.com/macros/s/AKfycbz9XPGl8lehOKZqJZIUhbY9bOXDpjgPeaTVFohRtMd9M1EAvLmEODcQeFNmIK3ir52i/exec"> 
+                    <div class="info">
+                        <label for="name"><h4>Name</h4></label>
+                            <input class="inp" name="Name" type="name" placeholder="Enter your name" autocomplete="off" required />
+                    </div>
+                    <div class="info">
+                        <label for="email"><h4>Email</h4></label>
+                            <input class="inp" name="Email" type="email" placeholder="Enter your email" autocomplete="off" required>
+                    </div>
+                    <div class="info1">
+                        <h4>Message</h4>
+                        <textarea class="scroll" name="Message" type="message" placeholder="Enter your subject" minlength="50" maxlenngth="200" required></textarea><br>
+                        <fieldset class="pure-group honeypot-field">
+                            <label for="honeypot">To help avoid spam, utilize a Honeypot technique with a hidden text field; must be empty to submit the form! Otherwise, we assume the user is a spam bot.</label>
+                            <input id="honeypot" type="text" name="honeypot" value="" />
+                        </fieldset>
+                        <input type="submit" onclick="myFunction()" value="Submit" id="submit"/>
+                  <!--<p id="submission"></p>-->
+                    </div>
+                </form>
+            </div>
+      </div>
     
         <div class="thankyou_message" style="display:none;">
             <h2><em>Thanks</em> for contacting us!
