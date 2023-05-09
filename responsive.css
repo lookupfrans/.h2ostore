@@ -166,7 +166,7 @@
     .container {
       width: 100%;
       /*text-align: center;*/
-      margin: 0;
+
     }
 
     .input-box {
@@ -400,6 +400,6 @@
     }
 
     td p {
-      font-size: 10px;
+      font-size: 8px;
     }
 }
