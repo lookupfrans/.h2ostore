@@ -370,7 +370,13 @@
       color: #eee;
       opacity: 0.8;
     }
-    
+   
+   footer {
+      width: 100%;
+    }
+
+
+
     footer p {
       color: white;
       opacity: 0.8;
