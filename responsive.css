@@ -126,7 +126,7 @@
 }*/
 
 
-@media all and (max-width: 67px) {
+@media all and (max-width: 670px) {
    header {
      background: #00008b;
     }
