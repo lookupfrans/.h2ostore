@@ -326,7 +326,7 @@
 
   @font-face{
     font-family: "EngravedBold";
-    src: url("../font/myfont.ttf") format("truetype");
+    src: url("myfont.ttf") format("truetype");
   }
 
   .top-wrapper h1 {
