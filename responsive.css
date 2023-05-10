@@ -86,11 +86,14 @@
    .fab {
       color: white;
       color: #eee;
+      
+      width: 50%;
    }
    
    .fa-brands {
       color: white;
       color: #eee;
+      width: 50%;
    }
    
    /*.title {
