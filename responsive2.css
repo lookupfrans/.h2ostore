@@ -167,4 +167,8 @@
       font-size: 8px;
       color: white;
     }
+   
+   .sidenav {
+      background: #00008b;
+   }
 }
