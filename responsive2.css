@@ -55,12 +55,12 @@
       margin: 0;
       width: 50%;
       margin-left: 15px;
-      background: #00008b;
    }
    
    .progress-bar {
       margin: 0;
       width: 100%;
+      background: #00008b;
    }
     
     mark {
