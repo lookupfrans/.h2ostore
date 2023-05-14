@@ -39,7 +39,6 @@
    .info2 .button {
       margin: 0;
       margin-top: 475px;
-      background: #00008b;
    }
    
    /*.button {
@@ -60,7 +59,7 @@
    
    .progress-bar {
       margin: 0;
-      width: 100%;
+      width: 50%;
    }
     
     mark {
