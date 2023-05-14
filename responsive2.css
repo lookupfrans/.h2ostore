@@ -15,6 +15,31 @@
      display: none;
    }
 
+   .info2 .button {
+      margin: 0;
+      /*margin-top: 475px;*/
+   }
+   
+   /*.button {
+      margin: 0;
+   }*/
+   
+   
+   /*.info2 {
+      margin: 0;
+      width: 50%;
+   }*/
+   
+   .text {
+      margin: 0;
+      width: 50%;
+      /*margin-left: 15px;*/
+   }
+   
+   .progress-bar {
+      margin: 0;
+   }
+
    .image-title {
      display: none;
    }
@@ -59,7 +84,6 @@
    
    .progress-bar {
       margin: 0;
-      margin-left: 15px;
    }
     
     mark {
