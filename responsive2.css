@@ -39,7 +39,6 @@
    .info2 .button {
       margin: 0;
       margin-top: 475px;
-      width: 50%;
    }
    
    /*.button {
@@ -55,7 +54,13 @@
    .text {
       margin: 0;
       width: 50%;
-      margin-left: 10px;
+      margin-left: 15px;
+   }
+   
+   progress-bar {
+      margin: 0;
+      width: 50%;
+      margin-left: 15px;
    }
     
     mark {
