@@ -36,6 +36,7 @@
   }
   
   .text {
+    background-image: linear-gradient(to right, blue, white);
     font: bold .25rem/1 poppins;
     color: #fff;
     position: absolute;
