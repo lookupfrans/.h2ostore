@@ -38,8 +38,7 @@
    
    .info2 .button {
       margin: 0;
-      margin-top: 473px;
-      margin-left: 10px;
+      margin-top: 474px;
    }
    
    /*.button {
@@ -50,6 +49,7 @@
    .info2 {
       margin: 0;
       width: 50%;
+      margin-left: 10px;
    }
    
    .text {
