@@ -37,6 +37,9 @@
   
   .text {
     background-image: linear-gradient(to right, blue, white);
+    border-radius: 4px;
+    height: 30px;
+    width: 100px;
     font: bold .25rem/1 poppins;
     color: #fff;
     position: absolute;
@@ -44,6 +47,7 @@
     transform: translateY(-52%);
     left: 0;
     right: 0;
+    border: none;
   }
   
   .progress-bar {
