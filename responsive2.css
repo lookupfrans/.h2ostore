@@ -48,10 +48,10 @@
       margin: 95px;
     }
  
-   .contact {
+   /*.contact {
     width: 100%;
     margin: 0;
-  }
+  }*/
    
    /*.content {
     width: 100%;
@@ -94,11 +94,11 @@
       margin: 0;
    }
 
-   .progress-bar {
+   /*.progress-bar {
       background: #00008b;
       position: absolute;
       margin: 0;
-   }
+   }*/
 
    /*svg {
       margin: 0;
@@ -144,9 +144,9 @@
         margin-bottom: 60px;
     }
    
-   .info2 {
+   .info2 .button{
       margin: 0;
-      /*margin-top: 475px;*/
+      margin-top: 475px;
    }
    
    /*.button {
