@@ -141,7 +141,6 @@
     .info {
         width: 100%;
         margin: 0;
-        margin-bottom: 60px;
     }
    
    /*.info2 .button{
@@ -165,7 +164,7 @@
    }
    
    
-   .progress-bar {
+   /*.progress-bar {
       background: #00008b;
       position: absolute;
       margin: 0;
