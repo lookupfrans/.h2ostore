@@ -86,13 +86,11 @@
        background: #00008b;
    }
 
-   /*.progress-bar {
-      margin: 0;
-      top: 0;
-      background-image: linear-gradient(to right, blue, white);
+   .progress-bar {
+     background: #00008b;
    }
 
-   svg {
+   /*svg {
       margin: 0;
       top: 0;
    }
