@@ -45,7 +45,7 @@
    }
    
    .info {
-      margin: 90px;
+      margin: 80px;
     }
  
    .contact {
@@ -73,7 +73,7 @@
    .info2 .button {
       margin: 0;
       width: 50%;
-      margin-bottom: none;
+      margin-bottom: 0;
       margin-left: 110px;
       position: absolute;
    }
