@@ -77,11 +77,11 @@
    }*/
 
 
-   /*.text {
-      margin: 0;
+   .text {
+      font-size: 13px;
    }
 
-   .progress-bar {
+   /*.progress-bar {
       margin: 0;
       top: 0;
       background-image: linear-gradient(to right, blue, white);
