@@ -7,13 +7,13 @@
          background: #00008b;
     }
    
-   .loader {
+   /*.loader {
       margin-bottom: 0;
    }
    
    .image-title {
       margin-bottom: 150px;
-   }
+   }*/
    
    footer {
          background: #00008b;
@@ -44,9 +44,9 @@
       color: #fff;
    }
    
-   /*.info {
+   .info {
       margin: 90px;
-    }*/
+    }
  
    .contact {
     width: 100%;
@@ -73,7 +73,7 @@
    .info2 .button {
       margin: 0;
       width: 50%;
-      /*margin-bottom: 450px;*/
+      margin-bottom: none;
       margin-left: 110px;
       position: absolute;
    }
