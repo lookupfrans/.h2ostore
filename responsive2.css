@@ -70,6 +70,7 @@
       width: 50%;
       margin-bottom: 450px;
       margin-left: 110px;
+      position: absolute;
    }
 
    /*.button {
@@ -88,6 +89,7 @@
 
    .progress-bar {
      background: #00008b;
+      position: absolute;
    }
 
    /*svg {
