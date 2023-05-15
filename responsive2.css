@@ -3,6 +3,30 @@
      display: none;
    }
 
+   .info2 .button {
+      margin: 0;
+   }
+
+   .button {
+      margin: 0;
+   }
+
+   .text {
+      margin: 0;
+   }
+
+   .progress-bar {
+      margin: 0;
+   }
+
+   svg {
+      margin: 0;
+   }
+
+   .check {
+      margin: 0;
+   }
+
    header {
      display: none;
    }
