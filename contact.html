@@ -7,13 +7,11 @@
     <title>H2Ostore</title>
     <link rel="stylesheet" type="text/css" href="style2.css">
     <link rel="stylesheet" type="text/css" href="responsive2.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/2.0/font-awesome-ie7.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <script src="auto.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    
 </head>
 <body>
      <div class="loader">
@@ -48,7 +46,7 @@
                     action="https://script.google.com/macros/s/AKfycbz9XPGl8lehOKZqJZIUhbY9bOXDpjgPeaTVFohRtMd9M1EAvLmEODcQeFNmIK3ir52i/exec"> 
                     <div class="info">
                         <label for="email"><h4>Email</h4></label>
-                            <input class="inp" name="Email" type="email" placeholder="Enter your email" autocomplete="off" required />
+                            <input class="inp" name="email" type="email" placeholder="Enter your email" autocomplete="off" required />
                     </div>
                     <div class="info">
                         <label for="name"><h4>Name</h4></label>
@@ -60,36 +58,34 @@
                         <fieldset class="pure-group honeypot-field">
                             <label for="honeypot">To help avoid spam, utilize a Honeypot technique with a hidden text field; must be empty to submit the form! Otherwise, we assume the user is a spam bot.</label>
                             <input id="honeypot" type="text" name="honeypot" value="" />
-			</fieldset>
-		    <div class="info2" style="margin-bottom: 200px;">
-		    	<div class="container">
-                    		<div class="button">
-                      			<input type="submit" class="text" onclick="myFunction()" value="Submit" id="submit" />
-                            		<!--<p id="submission"></p>-->
-			 	</div>
-			</div>
-		    </div>
-                    <div class="progress-bar"></div>
-                    <svg x="0px" y="0px" viewBox="0 0 25 30" style="enable-background: new 0 0 25 30">
-                    	<path class="check" class="st0" d="M2,19.2C5.9,23.6,9.4,28,9.4,28L23,2" />
-                    </svg>
-		    
-		    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-   	    	    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.js"></script>
-	    	    <script src="script.js"></script>
-			    
+                        </fieldset>
+                        <div class="info2" style="margin-bottom: 200px;">
+                          <div class="container">
+                          <div class="button">
+                            <input type="submit" class="text" onclick="myFunction()" value="Submit" id="submit" />
+                            <!--<p id="submission"></p>-->
+                          </div>
+                        <div class="progress-bar">
+                          <div class="container">
+                          </div>
+                        </div>
+                        <svg x="0px" y="0px" viewBox="0 0 25 30" style="enable-background: new 0 0 25 30">
+                          <path class="check" class="st0" d="M2,19.2C5.9,23.6,9.4,28,9.4,28L23,2" />
+                        </svg>
+                    </div>
+                  </div>
+                    
+          
+            
+                    
+                    
+                  <!-- partial -->
+                  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+                  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.js"></script>
+                  <script src="script.js"></script>
                 </form>
             </div>
       </div>
-	    
-	   
-    
-                        <!--<input type="submit" onclick="myFunction()" value="Submit" id="submit"/>
-                  	    <p id="submission"></p>
-                    </div>
-                </form>
-            </div>
-      </div>-->
     
         <div class="thankyou_message" style="display:none;">
             <h2><em>Thanks</em> for contacting us!
@@ -98,16 +94,11 @@
 
      <script data-cfasync="false" src="handler.js"></script>
 
-       <!--<script>
+          <!--<script>
             function myFunction() {
-              let text = "It may take several minutes....";
-              if (confirm(text) == true) {
-                location.replace("https://h2ostr.vercel.app/confirm.html?email=as%40gmail.com&true=on")
-              } else {
-                location.replace("#")
+                location.replace("https://h2ostr.vercel.app/confirm.html?email=as%40gmail.com&true=on"), 1000
               }
-                document.getElementById("submission").innerHTML = text;
-            }
+              
           </script>-->
 
     <div class="content">
@@ -165,8 +156,8 @@
     
       <script>
         $(window).on('load', function() {
-          $(".loader").fadeOut(5000);
-          $(".content").fadeIn(5000);
+          $(".loader").fadeOut(100);
+          $(".content").fadeIn(100);
         });
       </script>
     
