@@ -74,16 +74,16 @@
       margin: 0;
       width: 50%;
       margin-bottom: 0;
-      margin-left: 110px;
+      /*margin-left: 110px;*/
       position: absolute;
       height: 0;
    }
 
-   /*.button {
-      margin-left: 90px;
+   .button {
+      margin: 0;
    }
    
-    input [type=submit] {
+    /*input [type=submit] {
       margin-left: 90px;
    }*/
 
