@@ -70,6 +70,7 @@
       width: 50%;
       margin-top: 0;
       margin-left: 110px;
+      margin-bottom: 100px;
    }
 
    /*.button {
@@ -93,11 +94,12 @@
    /*svg {
       margin: 0;
       top: 0;
-   }
+   }*/
 
    .check {
       margin: 0;
-   }*/
+      background: #00008b;
+   }
 
    /*header {
      display: none;
