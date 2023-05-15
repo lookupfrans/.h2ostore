@@ -154,10 +154,15 @@
    }*/
    
    
-   /*.info2 {
+   .info2 {
       margin: 0;
-      width: 50%;
-   }*/
+      width: 100%;
+   }
+   
+    .info1 {
+      margin: 0;
+      width: 100%;
+   }
    
    
    .progress-bar {
