@@ -44,9 +44,9 @@
       color: #fff;
    }
    
-   .info {
+   /*.info {
       margin: 95px;
-    }
+    }*/
  
    /*.contact {
     width: 100%;
@@ -70,7 +70,7 @@
     }*/
    
 
-   .info2 {
+   /*.info2 {
       margin: 0;
       width: 50%;
       margin-bottom: 0;
@@ -109,7 +109,7 @@
    .check {
       margin: 0;
       background: #00008b;
-   }
+   }*/
 
    /*header {
      display: none;
