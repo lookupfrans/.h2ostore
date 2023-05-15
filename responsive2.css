@@ -159,6 +159,13 @@
       width: 50%;
    }*/
    
+   
+   .progress-bar {
+      background: #00008b;
+      position: absolute;
+      margin: 0;
+   }
+   
    .text {
       margin: 0;
       margin-left: 15px;
