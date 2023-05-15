@@ -2,10 +2,19 @@
    /*body {
      display: none;
    }*/
+   
+   h1 {
+      color: #fff;
+   }
+   
+   h4 {
+      color: #fff;
+   }
 
    .info2 .button {
       margin: 0;
       width: 50%;
+      margin-top: 0;
    }
 
    .button {
@@ -18,10 +27,12 @@
 
    .progress-bar {
       margin: 0;
+      top: 0;
    }
 
    svg {
       margin: 0;
+      top: 0;
    }
 
    .check {
