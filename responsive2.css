@@ -3,6 +3,18 @@
      display: none;
    }*/
    
+   header {
+         background: #00008b;
+    }
+   
+   .image-title {
+      margin-bottom: 150px;
+   }
+   
+   footer {
+         background: #00008b;
+    }
+   
    footer p a {
       opacity: 0.7;
       color: white;
