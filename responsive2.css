@@ -53,16 +53,17 @@
    .progress-bar {
       margin: 0;
       top: 0;
+      background-image: linear-gradient(to right, blue, white);
    }
 
-   svg {
+   /*svg {
       margin: 0;
       top: 0;
    }
 
    .check {
       margin: 0;
-   }
+   }*/
 
    /*header {
      display: none;
