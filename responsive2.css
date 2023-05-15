@@ -29,15 +29,16 @@
       margin: 0;
       width: 50%;
       margin-top: 0;
+      margin-left: 90px;
    }
 
-   .button {
+   /*.button {
       margin-left: 90px;
    }
    
     input [type=submit] {
       margin-left: 90px;
-   }
+   }*/
 
 
    .text {
