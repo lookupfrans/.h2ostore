@@ -1,11 +1,11 @@
-/*@media all and (max-width: 1080px) {
-   body {
+@media all and (max-width: 1080px) {
+   /*body {
      display: none;
    }
 
    .info2 .button {
       margin: 0;
-   }
+   }*/
 
    .button {
       margin: 0;
@@ -27,7 +27,7 @@
       margin: 0;
    }
 
-   header {
+   /*header {
      display: none;
    }
 
@@ -45,8 +45,8 @@
 
    footer {
      display: none;
-   }
-}*/
+   }*/
+}
 
 
 @media all and (max-width: 670px) {
