@@ -15,6 +15,10 @@
       margin: 90px;
     }
    
+   .container {
+      width: 100%;
+    }
+   
    .contact {
     width: 100%;
     margin: 0;
