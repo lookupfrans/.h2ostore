@@ -90,12 +90,14 @@
 
    .text {
       font-size: 13px;
-       background: #00008b;
+      background: #00008b;
+      margin: 0;
    }
 
    .progress-bar {
-     background: #00008b;
+      background: #00008b;
       position: absolute;
+      margin: 0;
    }
 
    /*svg {
@@ -123,11 +125,11 @@
 
    .image-title {
      display: none;
-   }*/
+   }
 
    footer {
      margin: 0;
-   }
+   }*/
 }
 
 
