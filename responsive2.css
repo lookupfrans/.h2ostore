@@ -68,9 +68,8 @@
    .info2 .button {
       margin: 0;
       width: 50%;
-      margin-top: 0;
+      margin-top: 100px;
       margin-left: 110px;
-      margin-bottom: 100px;
    }
 
    /*.button {
@@ -91,10 +90,11 @@
      background: #00008b;
    }
 
-   /*svg {
+   svg {
       margin: 0;
       top: 0;
-   }*/
+      background: #00008b;
+   }
 
    .check {
       margin: 0;
