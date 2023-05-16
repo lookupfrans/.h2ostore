@@ -41,9 +41,14 @@
       margin-left: 200px;
     }
    
-   .message {
+   .message-wrapper .message {
        background: #00008b;
        color: #fff;
+    }
+   
+   
+   .lesson-wrapper .heading {
+       border-bottom: 2px solid #fff;
     }
    
    .box-title {
