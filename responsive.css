@@ -18,6 +18,10 @@
       margin-left: 60px;
     }
    
+   img {
+      width: 50%;
+    }
+   
    .submit-btn {
       color: #eee;
     }
