@@ -82,6 +82,10 @@
       text-align: center;
       justify-content: center;
    }
+   
+   .lesson {
+      width: 100%;
+   }
 
    .fa {
       color: white;
