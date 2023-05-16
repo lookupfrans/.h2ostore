@@ -10,7 +10,7 @@
       hsla(48,92%,75%,.7) 95%,
       hsla(48,92%,75%,.1)
       );
-      border-radius: 1em 0;
+      /*border-radius: 1em 0;*/
       padding: .3em;
    }
    
@@ -43,7 +43,7 @@
 
     footer {
      background: #00008b;
-     height: 300px;
+     height: 400px;
     }
 
     footer p a {
@@ -108,7 +108,7 @@
       hsla(48,92%,75%,.7) 95%,
       hsla(48,92%,75%,.1)
       );
-      border-radius: 1em 0;
+      /*border-radius: 1em 0;*/
       padding: .3em;
    }
     
