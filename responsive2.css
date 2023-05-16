@@ -3,6 +3,10 @@
      background: #00008b;
     }
     
+    b {
+        margin-top: 10px;
+    }
+    
     mark {
       background: linear-gradient(
       -100deg,
