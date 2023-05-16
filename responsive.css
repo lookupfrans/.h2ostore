@@ -5,13 +5,6 @@
       justify-content: center;
 }*/
    
-     
-   .lesson {
-      margin: 0;
-      display: table;
-      align-items: center;
-   }
-   
    .top-wrapper h1 {
       color: #fff;
     }
@@ -28,7 +21,8 @@
 
     footer {
      background: #00008b;
-     width: 100%;
+     width: 150%;
+     display: table;
     }
 
     footer p a {
