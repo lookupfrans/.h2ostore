@@ -22,9 +22,9 @@
       margin-left: 60px;
    }
    
-   .image-title img {
+   /*.image-title img {
       margin-left: 200px;
-   }
+   }*/
    
    .submit-btn {
       color: #eee;
@@ -41,12 +41,12 @@
    /*.image-title {
       align-item: center;
       text-align: center;
-    }*/
+    }
    
    .loader {
       align-item: center;
       text-align: center;
-    }
+    }*/
    
    .btn-wrapper .signup {
      color: white;
