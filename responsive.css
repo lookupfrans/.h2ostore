@@ -31,7 +31,6 @@
     }
    
    .message-wrapper {
-      background: #00008b;
       padding: 180px 0 100px 0;
       color: white;
       width: 100%;
@@ -40,6 +39,10 @@
       justify-content: center;
       align-items: center;
       margin-left: 200px;
+    }
+   
+   .message-wrapper .heading {
+       background: #00008b;
     }
     
     .lesson-wrapper {
@@ -59,7 +62,6 @@
       justify-content: center;
       align-items: center;
       margin-left: 200px;
-      background: #00008b;
     }
 
     mark {
