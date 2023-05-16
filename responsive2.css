@@ -12,7 +12,11 @@
       );
       /*border-radius: 1em 0;*/
       padding: .3em;
-   }
+    }
+    
+    .text.contents {
+        margin-top: 30px;
+    }
    
     .message-wrapper {
         color: white;
