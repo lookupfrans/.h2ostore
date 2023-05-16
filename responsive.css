@@ -52,6 +52,7 @@
    
    .lesson-wrapper .heading {
        border-bottom: 2px solid #fff;
+       margin: 0;
     }
    
    .box-title {
