@@ -3,6 +3,11 @@
      background: #00008b;
     }
     
+    form {
+        width: 100%;
+        margin: 0;
+    }
+    
     .gform {
         width: 100%;
         margin: 0;
