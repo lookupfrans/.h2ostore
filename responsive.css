@@ -1,30 +1,37 @@
 @media all and (max-width: 1000px) {
-   /*.box-title {
-      margin-right: 200px;
-      text-align: center;
-      justify-content: center;
-}*/
-   
-    label {
-      color: white;
-      color: #eee;
-      opacity: 0.8;
-    }
-   
-    header {
+   header {
      background: #00008b;
     }
+    
+    mark {
+      background: linear-gradient(
+      -100deg,
+      hsla(48,92%,75%,.3),
+      hsla(48,92%,75%,.7) 95%,
+      hsla(48,92%,75%,.1)
+      );
+      /*border-radius: 1em 0;*/
+      padding: .3em;
+   }
    
+    .message-wrapper {
+        color: white;
+    }
+    
+    h1 {
+        color: white;
+    }
+    
    .bi {
       width: 70%;
       margin-bottom: 10px;
-      margin-right: 10px;
+      margin-right: 0px;
    }
    
     .fa-brands {
-      margin-right: 5px;
+      margin-right: 0px;
       width: 20%;
-      display: inline-block;
+      display: block;
       margin-bottom: 10px;
       margin-top: 10px;
     }
@@ -33,42 +40,10 @@
       width: 20%;
       display: flex;
     }
-   
-    .message-wrapper {
-      padding: 180px 0 100px 0;
-      color: white;
-      width: 100%;
-      margin: 0;
-      text-align: center;
-      justify-content: center;
-      align-items: center;
-      margin-left: 250px;
-    }
-    
-    .lesson-wrapper {
-      margin: 0;
-      width: 100%;
-      line-height: 20px;
-      text-align: center;
-      justify-content: center;
-      align-items: center;
-      margin-left: 250px;
-    }
-   
-   .box-wrapper {
-      width: 100%;
-      margin: 0;
-      text-align: center;
-      justify-content: center;
-      align-items: center;
-      margin-left: 250px;
-    }
 
     footer {
      background: #00008b;
-     width: 150%;
-     display: table;
-     height: 200px;
+     height: 350px;
     }
 
     footer p a {
@@ -78,7 +53,7 @@
     }
     
     footer td {
-      font-size: 30px;
+      font-size: 25px;
       color: white;
     }
    
@@ -86,71 +61,8 @@
      background: #00008b;
     }
    
-   /*.message-wrapper {
-     background: #00008b;
-    }*/
-
-   /*.box-wrapper {
-     background: #00008b;
-    }*/
-
-    .message {
-     color: white;
-    }
-
-    .message-wrapper .message {
-     background: #00008b;
-    }
-
-    .box-title {
-     background: #00008b;
-     color: white;
-    }
-   
    .sidenav {
      background: #00008b;
-    }
-  
-   .input-box h3 {
-      color: white;
-      font-size: 15px;
-      color: #eee;
-      text-align: center;
-      justify-content: center;
-   }
-   
-    h3 {
-      font-size: 15px;
-      color: white;
-   }
-   
-   .submit-btn {
-      color: white;
-      color: #eee;
-      text-align: center;
-      justify-content: center;
-   }
-   
-    .top-wrapper h1 {
-      font-size: 24px;
-      color: #fff;
-      color: white;
-      margin-left: 60px;
-    }
-    
-    .top-wrapper p {
-      font-size: 14px;
-      top: 20px;
-      color: white;
-      margin: 0;
-      margin-left: 60px;
-    }
-   
-   .btn-wrapper .signup {
-     color: white;
-     opacity: 1;
-     margin-left: 75px;
-     margin-top: 40px;
     }
    
    .fa {
@@ -174,38 +86,7 @@
    .bi-instagram {
       width: 50%;
    }
-   
-   /*.title {
-      color: white;
-      color: #eee;
-   }
-}*/
-
-
-   /*body {
-     display: none;
-   }
-
-   header {
-     display: none;
-   }
-
-   .loader {
-     display: none;
-   }
-
-   .content {
-     display: none;
-   }
-
-   .image-title {
-     display: none;
-   }
-
-   footer {
-     display: none;
-   }
-}*/
+}
 
 
 @media all and (max-width: 670px) {
