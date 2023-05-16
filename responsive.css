@@ -39,11 +39,13 @@
     }
    
    .image-title {
-      margin-left: 200px;
+      align-item: center;
+      text-align: center;
     }
    
    .loader .image-title {
-      margin-left: 200px;
+      align-item: center;
+      text-align: center;
     }
    
    .btn-wrapper .signup {
