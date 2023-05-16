@@ -3,6 +3,14 @@
      background: #00008b;
     }
    
+    .message-wrapper {
+        color: white;
+    }
+    
+    h1 {
+        color: white;
+    }
+    
    .bi {
       width: 70%;
       margin-bottom: 10px;
