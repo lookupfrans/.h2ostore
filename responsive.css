@@ -6,9 +6,10 @@
 }*/
    
      
-   .container {
-      width: 100%;
+   .lesson {
       margin: 0;
+      display: table;
+      align-items: center;
    }
    
    .top-wrapper h1 {
