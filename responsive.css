@@ -27,7 +27,7 @@
    
     .fa-brands {
       margin-right: 0px;
-      width: 30%;
+      width: 10%;
       display: flex;
       margin-bottom: 10px;
       margin-top: 10px;
@@ -38,7 +38,7 @@
       display: flex;
     }
    
-    .message-wrapper {
+    /*.message-wrapper {
       padding: 180px 0 100px 0;
       color: white;
       width: 250%;
@@ -54,7 +54,7 @@
    .box-wrapper {
       width: 250%;
       margin: 0;
-    }
+    }*/
 
     footer {
      background: #00008b;
