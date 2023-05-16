@@ -7,7 +7,7 @@
       font-size: 24px;
       color: #fff;
       color: white;
-      margin-left: 60px;
+      margin-left: 30px;
     }
     
     .top-wrapper p {
@@ -15,7 +15,7 @@
       top: 20px;
       color: white;
       margin: 0;
-      margin-left: 60px;
+      margin-left: 30px;
     }
    
    .btn-wrapper .signup {
@@ -33,7 +33,7 @@
       text-align: center;
       justify-content: center;
       align-items: center;
-      margin-left: 250px;
+      margin-left: 200px;
     }
     
     .lesson-wrapper {
@@ -43,7 +43,7 @@
       text-align: center;
       justify-content: center;
       align-items: center;
-      margin-left: 250px;
+      margin-left: 200px;
     }
    
    .box-wrapper {
