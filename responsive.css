@@ -20,8 +20,11 @@
    
    .submit-btn {
       color: #eee;
-      
     }
+   
+   img {
+      top: 50px;
+   }
    
    .btn-wrapper .signup {
      color: white;
