@@ -5,10 +5,6 @@
       justify-content: center;
 }*/
    
-   .top-wrapper h1 {
-      color: #fff;
-    }
-
     label {
       color: white;
       color: #eee;
@@ -131,7 +127,28 @@
       text-align: center;
       justify-content: center;
    }
-
+   
+    .top-wrapper h1 {
+      font-size: 24px;
+      line-height: 36px;
+      color: #fff;
+      color: white;
+      margin-left: 200px;
+    }
+    
+    .top-wrapper p {
+      font-size: 14px;
+      line-height: 20px;
+      color: white;
+      margin: 0;
+      margin-left: 80px;
+    }
+   
+   .btn-wrapper .signup {
+     color: white;
+     opacity: 1;
+    }
+   
    .fa {
       color: white;
       color: #eee
