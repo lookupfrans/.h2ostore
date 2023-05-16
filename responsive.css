@@ -6,7 +6,7 @@
 }*/
    
    .lesson {
-      width: 70%;
+      width: 50%;
    }
    
     label {
@@ -46,7 +46,7 @@
       text-align: center;
       justify-content: center;
       align-items: center;
-      margin-left: 150px;
+      margin-left: 250px;
     }
     
     .lesson-wrapper {
@@ -56,7 +56,7 @@
       text-align: center;
       justify-content: center;
       align-items: center;
-      margin-left: 150px;
+      margin-left: 250px;
     }
    
    .box-wrapper {
@@ -65,7 +65,7 @@
       text-align: center;
       justify-content: center;
       align-items: center;
-      margin-left: 150px;
+      margin-left: 250px;
     }
 
     footer {
