@@ -345,6 +345,15 @@
       margin: 0;
       width: 550%;
     }
+   
+   .box-wrapper {
+      width: 550%;
+      margin: 0;
+    }
+   
+   .submit-wrapper {
+      margin-bottom: 30px;
+    }
     
     .input-box h3 {
      font-size: 10px;
