@@ -130,23 +130,24 @@
    
     .top-wrapper h1 {
       font-size: 24px;
-      line-height: 36px;
       color: #fff;
       color: white;
-      margin-left: 200px;
+      margin-left: 60px;
     }
     
     .top-wrapper p {
       font-size: 14px;
-      line-height: 20px;
+      top: 30px;
       color: white;
       margin: 0;
-      margin-left: 80px;
+      margin-left: 60px;
     }
    
    .btn-wrapper .signup {
      color: white;
      opacity: 1;
+     margin-left: 60px;
+     top: 40px;
     }
    
    .fa {
