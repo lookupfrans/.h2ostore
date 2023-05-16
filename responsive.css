@@ -3,6 +3,58 @@
      background: #00008b;
     }
     
+    .top-wrapper h1 {
+      font-size: 24px;
+      color: #fff;
+      color: white;
+      margin-left: 60px;
+    }
+    
+    .top-wrapper p {
+      font-size: 14px;
+      top: 20px;
+      color: white;
+      margin: 0;
+      margin-left: 60px;
+    }
+   
+   .btn-wrapper .signup {
+     color: white;
+     opacity: 1;
+     margin-left: 75px;
+     margin-top: 40px;
+    }
+   
+   .message-wrapper {
+      padding: 180px 0 100px 0;
+      color: white;
+      width: 100%;
+      margin: 0;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      margin-left: 250px;
+    }
+    
+    .lesson-wrapper {
+      margin: 0;
+      width: 100%;
+      line-height: 20px;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      margin-left: 250px;
+    }
+   
+   .box-wrapper {
+      width: 100%;
+      margin: 0;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      margin-left: 250px;
+    }
+
     mark {
       background: linear-gradient(
       -100deg,
@@ -43,7 +95,7 @@
 
     footer {
      background: #00008b;
-     height: 350px;
+     height: 390px;
      width: 150%;
     }
 
