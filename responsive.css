@@ -41,12 +41,14 @@
       margin-left: 200px;
     }
    
-   h2 {
+   .message {
        background: #00008b;
+       color: #fff;
     }
    
    .box-title {
        background: #00008b;
+       color: #fff;
     }
     
     .lesson-wrapper {
