@@ -28,6 +28,7 @@
     .fa-brands {
       margin-right: 5px;
       width: 20%;
+      display: inline-block;
       margin-bottom: 10px;
       margin-top: 10px;
     }
@@ -42,17 +43,26 @@
       color: white;
       width: 100%;
       margin: 0;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
     }
     
     .lesson-wrapper {
       margin: 0;
       width: 100%;
       line-height: 20px;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
     }
    
    .box-wrapper {
       width: 100%;
       margin: 0;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
     }
 
     footer {
