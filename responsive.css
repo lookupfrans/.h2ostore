@@ -4,6 +4,10 @@
       text-align: center;
       justify-content: center;
 }*/
+   
+   .top-wrapper h1 {
+      color: #fff;
+    }
 
     label {
       color: white;
@@ -144,7 +148,8 @@
     }
    
     .heading {
-      margin-bottom: 50px;
+      margin: 50px;
+      margin-bottom: 1px solid #fff;
    }
    
     .input-box [placeholder]:focus::-webkit-input-placeholder {
