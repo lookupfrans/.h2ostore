@@ -6,9 +6,9 @@
 }*/
    
      
-   .lesson-icon {
+   .container {
       width: 100%;
-      margin-right: 100px;
+      margin: 0;
    }
    
    .top-wrapper h1 {
