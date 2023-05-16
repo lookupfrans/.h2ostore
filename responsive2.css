@@ -3,6 +3,19 @@
      background: #00008b;
     }
     
+    h4 {
+        color: #fff;
+    }
+    
+    .info {
+        margin-left: 40px;
+    }
+    
+    .text {
+        margin: 0;
+        width: 0;
+    }
+    
     .message-wrapper b {
         margin-top: 20px;
     }
