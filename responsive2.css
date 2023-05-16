@@ -1,10 +1,4 @@
-/*@media all and (max-width: 1080px) {
-    label {
-      color: white;
-      color: #eee;
-      opacity: 0.8;
-    }
-   
+@media all and (max-width: 1080px) {
     header {
      background: #00008b;
     }
@@ -30,7 +24,6 @@
 
     footer {
      background: #00008b;
-     height: 200px;
     }
 
     footer p a {
@@ -73,7 +66,7 @@
    .bi-instagram {
       width: 50%;
    }
-
+}
 
 @media all and (max-width: 670px) {
     header {
