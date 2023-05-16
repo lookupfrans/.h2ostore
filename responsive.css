@@ -5,6 +5,11 @@
       justify-content: center;
 }*/
    
+     
+   .lesson {
+      width: 50%;
+   }
+   
    .top-wrapper h1 {
       color: #fff;
     }
@@ -81,10 +86,6 @@
       color: #eee;
       text-align: center;
       justify-content: center;
-   }
-   
-   .lesson {
-      width: 100%;
    }
 
    .fa {
