@@ -10,7 +10,7 @@
    }
    
     .fa-brands {
-      margin-right: 5px;
+      margin-right: 0px;
       width: 20%;
       display: inline-block;
       margin-bottom: 10px;
@@ -24,6 +24,7 @@
 
     footer {
      background: #00008b;
+     height: 200px;
     }
 
     footer p a {
@@ -33,7 +34,7 @@
     }
     
     footer td {
-      font-size: 30px;
+      font-size: 25px;
       color: white;
     }
    
