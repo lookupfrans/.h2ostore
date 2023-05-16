@@ -3,8 +3,8 @@
      background: #00008b;
     }
     
-    h1 {
-        margin-bottom: 20px;
+    .message-wrapper b {
+        margin-top: 20px;
     }
     
     mark {
