@@ -41,7 +41,11 @@
       margin-left: 200px;
     }
    
-   .message-wrapper .heading {
+   h2 {
+       background: #00008b;
+    }
+   
+   .box-title {
        background: #00008b;
     }
     
