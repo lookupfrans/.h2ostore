@@ -149,7 +149,7 @@
    
     .heading {
       margin: 50px;
-      margin-bottom: 1px solid #fff;
+      border-bottom: 2px solid #fff;
    }
    
     .input-box [placeholder]:focus::-webkit-input-placeholder {
