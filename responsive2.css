@@ -3,6 +3,21 @@
      display: none;
    }
 
+   p {
+      color: #fff;
+   }
+
+   td {
+      font-size: 30px;
+      margin: 0;
+      color: white
+    }
+
+    td p {
+      font-size: 8px;
+      color: white;
+    }
+
    header {
      display: none;
    }
