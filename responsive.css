@@ -344,6 +344,7 @@
     .lesson-wrapper {
       margin: 0;
       width: 550%;
+      line-height: 20px;
     }
    
    .box-wrapper {
