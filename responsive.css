@@ -150,7 +150,6 @@
    
     .lesson-wrapper .heading {
       border-bottom: 2px solid #fff;
-      margin: 0;
    }
    
     .input-box [placeholder]:focus::-webkit-input-placeholder {
@@ -372,7 +371,7 @@
       /*display: table;*/
       position: relative;
       margin: 10px;
-      top: 20px;
+      top: 35px;
     }
 
    .text-contents {
