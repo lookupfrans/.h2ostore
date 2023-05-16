@@ -264,7 +264,7 @@
     
     .top-wrapper {
       text-align: center;
-      width: 100%;
+      width: 200%;
     }
 
     .btn-wrapper {
@@ -332,13 +332,13 @@
     .message-wrapper {
       padding: 180px 0 100px 0;
       color: white;
-      width: 100%;
+      width: 550%;
       margin: 0;
     }
     
     .lesson-wrapper {
       margin: 0;
-      width: 100%;
+      width: 550%;
     }
     
     .input-box h3 {
@@ -378,13 +378,7 @@
       color: #eee;
       opacity: 0.8;
     }
-   
-
-
-
-
-
-
+ 
     footer p {
       color: white;
       opacity: 0.8;
