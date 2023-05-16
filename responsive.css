@@ -320,6 +320,7 @@
       font-size: 24px;
       line-height: 36px;
       color: white;
+      margin-left: 200px;
     }
     
     .top-wrapper p {
@@ -327,6 +328,8 @@
       line-height: 20px;
       color: white;
       margin: 0;
+      margin-left: 300px;
+      margin-top: 10px;
     }
     
     .message-wrapper {
