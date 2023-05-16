@@ -33,7 +33,7 @@
       text-align: center;
       justify-content: center;
       align-items: center;
-      margin-left: 250px;
+      margin-left: 200px;
     }
     
     .lesson-wrapper {
@@ -43,7 +43,7 @@
       text-align: center;
       justify-content: center;
       align-items: center;
-      margin-left: 250px;
+      margin-left: 200px;
     }
    
    .box-wrapper {
@@ -52,7 +52,7 @@
       text-align: center;
       justify-content: center;
       align-items: center;
-      margin-left: 250px;
+      margin-left: 200px;
     }
 
     mark {
@@ -65,10 +65,6 @@
       /*border-radius: 1em 0;*/
       padding: .3em;
    }
-   
-    .message-wrapper {
-        color: white;
-    }
     
     h1 {
         color: white;
@@ -96,7 +92,7 @@
     footer {
      background: #00008b;
      height: 390px;
-     width: 1350px;
+     width: 1300px;
     }
 
     footer p a {
