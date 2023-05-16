@@ -21,6 +21,7 @@
 
     footer {
      background: #00008b;
+     width: 200%;
     }
 
     footer p a {
@@ -148,7 +149,7 @@
     }
    
     .heading {
-      margin: 50px;
+      margin: 10px;
       border-bottom: 2px solid #fff;
    }
    
