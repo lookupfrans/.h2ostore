@@ -38,10 +38,16 @@
         margin-top: 60px;
     }
    
+   .image-title {
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+    }
+   
    .btn-wrapper .signup {
      color: white;
      opacity: 1;
-     margin-left: 75px;
+     margin-left: 80px;
      margin-top: 40px;
     }
    
