@@ -18,6 +18,11 @@
       margin-left: 60px;
     }
    
+   .submit-btn {
+      color: #eee;
+      
+    }
+   
    .btn-wrapper .signup {
      color: white;
      opacity: 1;
@@ -26,6 +31,7 @@
     }
    
    .message-wrapper {
+      background: #00008b;
       padding: 180px 0 100px 0;
       color: white;
       width: 100%;
@@ -53,6 +59,7 @@
       justify-content: center;
       align-items: center;
       margin-left: 200px;
+      background: #00008b;
     }
 
     mark {
@@ -92,7 +99,7 @@
     footer {
      background: #00008b;
      height: 390px;
-     width: 1300px;
+     width: 1350px;
     }
 
     footer p a {
