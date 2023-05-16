@@ -183,7 +183,7 @@
     }
     
     input {
-      width: 50%;
+      width: 30%;
       margin: 0px;
       color: white;
       text-align: center;
@@ -222,7 +222,7 @@
     }
 
     .box-title {
-      width: 70%;
+      width: 30%;
       margin: 0;
       margin-bottom: 20px;
     }
@@ -379,7 +379,7 @@
 
     footer {
       margin: 0;
-      width: 100%;
+      width: 550%;
       height: 240px;
     }
 
