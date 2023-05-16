@@ -272,6 +272,8 @@
       justify-content: center;
       position: relative;
       opacity: 0.8;
+      width: 290%;
+      margin-top:50px;
     }
 
     li {
@@ -328,8 +330,8 @@
       line-height: 20px;
       color: white;
       margin: 0;
-      margin-left: 300px;
-      margin-top: 10px;
+      margin-left: 200px;
+      margin-top: 20px;
     }
     
     .message-wrapper {
