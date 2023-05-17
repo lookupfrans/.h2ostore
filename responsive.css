@@ -497,16 +497,17 @@
     footer p a {
       opacity: 0.7;
       color: white;
+      font-size: 12px;
     }
     
     footer td {
-      font-size: 13px;
+      font-size: 25px;
       color: white;
       width: 0%;
     }
   
     td {
-      font-size: 10px;
+      font-size: 5px;
       margin: 0;
     }
 
