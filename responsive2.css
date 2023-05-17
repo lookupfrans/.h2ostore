@@ -200,7 +200,7 @@
     }
     
     .container {
-        width: 100%;
+        width: 200%;
         margin: 0;
     }
 
@@ -262,7 +262,7 @@
 
     footer {
         margin: 0;
-        width: 180%;
+        width: 150%;
         height: 240px;
         background: #00008b;
     }
