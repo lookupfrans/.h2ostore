@@ -241,7 +241,7 @@
     }
     
     input {
-      width: 30%;
+      width: 40%;
       margin: 0px;
       color: white;
       text-align: center;
@@ -466,7 +466,6 @@
       margin-top: 10px;
    }
 
-   
    object {
       width: 20%;
       display: flex;
