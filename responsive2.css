@@ -1,0 +1,310 @@
+@media all and (max-width: 1080px) {
+    header {
+     background: #00008b;
+    }
+    
+    input[type=submit] {
+        width: 100%;
+        margin: 0;
+    }
+    
+    .pure-form {
+        width: 100%;
+        margin: 0;
+    }
+    
+    .info {
+        margin-left: 40px;
+        color: #fff;
+        width: 100%;
+    }
+    
+    .label {
+        margin-left: 40px;
+        color: #fff;
+        width: 100%;
+    }
+    
+    .text {
+        margin: 0;
+        width: 0;
+    }
+    
+    .message-wrapper b {
+        margin-top: 20px;
+    }
+    
+    mark {
+      background: linear-gradient(
+      -100deg,
+      hsla(48,92%,75%,.3),
+      hsla(48,92%,75%,.7) 95%,
+      hsla(48,92%,75%,.1)
+      );
+      /*border-radius: 1em 0;*/
+      padding: .3em;
+    }
+   
+    .message-wrapper {
+        color: white;
+    }
+    
+    h1 {
+        color: white;
+    }
+    
+   .bi {
+      width: 70%;
+      margin-bottom: 10px;
+      margin-right: 0px;
+   }
+   
+    .fa-brands {
+      margin-right: 0px;
+      width: 20%;
+      display: block;
+      margin-bottom: 10px;
+      margin-top: 10px;
+    }
+
+    object {
+      width: 20%;
+      display: flex;
+    }
+
+    footer {
+     background: #00008b;
+     height: 350px;
+    }
+
+    footer p a {
+      opacity: 0.7;
+      color: white;
+      font-size: 15px;
+    }
+    
+    footer td {
+      font-size: 25px;
+      color: white;
+    }
+   
+   .signup {
+     background: #00008b;
+    }
+   
+   .sidenav {
+     background: #00008b;
+    }
+   
+   .fa {
+      color: white;
+      color: #eee
+   }
+   
+   .fab {
+      color: white;
+      color: #eee;
+      
+      width: 50%;
+   }
+   
+   .fa-brands {
+      color: white;
+      color: #eee;
+      width: 50%;
+   }
+   
+   .bi-instagram {
+      width: 50%;
+   }
+}
+
+@media all and (max-width: 670px) {
+    header {
+         background: #00008b;
+    }
+    
+    .message-wrapper {
+        color: white;
+    }
+    
+    h1 {
+        color: white;
+    }
+    
+    .info2 .button {
+      margin: 0;
+      margin-left: 15px;
+      margin-top: 460px;
+      width: 20%;
+    }
+    
+    .progress-bar {
+        background: #00008b;
+        margin-bottom: 60px;
+        margin: 0;
+    }
+    
+    .check {
+         background: #00008b;
+    }
+    
+    mark {
+      background: linear-gradient(
+      -100deg,
+      hsla(48,92%,75%,.3),
+      hsla(48,92%,75%,.7) 95%,
+      hsla(48,92%,75%,.1)
+      );
+      /*border-radius: 1em 0;*/
+      padding: .3em;
+   }
+    
+    .info {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 60px;
+    }
+    
+    small {
+      color: white;
+      opacity: 0.5;
+    }
+    
+    .inp {
+      color: white;
+      border-bottom: 1px solid #eee;
+      width: 50%;
+    }
+    
+    textarea {
+        color: white;
+        border-bottom: 1px solid #eee;
+        width: 50%;
+    }
+    
+    .header-left {
+      padding-left: 40px;
+      color: white;
+      opacity: 0.8;
+    }
+    
+    h4 {
+        color: white;
+    }
+    
+    h1 {
+        font-size: 25px;
+        margin-top: 190px;
+        color: white;
+    }
+    
+    .container {
+        width: 100%;
+        margin: 0;
+    }
+
+    .info1 {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    
+    .fa {
+        margin: 0;
+        color: white;
+
+    }
+    
+    b {
+        color: white
+    }
+    
+     .message-wrapper {
+        width: 100%;
+        margin: 0;
+    }
+    
+     p {
+        color: white;
+    }
+    
+     .menu-icon {
+        display: block;
+    }
+    
+     .contact {
+        width: 100%;
+        margin: 0;
+    }
+    
+    input[type=submit] {
+        margin-bottom: 0px;
+        background: #00008b;
+        color: white;
+    }
+    
+    input[type=submit]:hover {
+        background: #00008b;
+        /*color: white;*/
+    }
+    
+    .scroll {
+        width: 70%;
+        margin: 0;
+    }
+    
+    .title {
+      font-size: 25px;
+      opacity: 0.6;
+      /*color: black;*/
+    }
+
+    footer {
+        margin: 0;
+        width: 180%;
+        height: 240px;
+        background: #00008b;
+    }
+    
+    footer p {
+      color: black;
+      opacity: 0.8;
+    }
+
+    footer p a {
+      opacity: 0.7;
+      color: white;
+      font-size: 5px;
+    }
+    
+    footer td {
+      font-size: 13px;
+      color: white;
+    }
+    
+    .bi {
+      width: 20%;
+   }
+
+   .fa-brands {
+      width: 20%;
+      margin-right: 0;
+   }
+
+   object {
+      width: 15%;
+   }
+  
+    td {
+      width: 150%;
+      font-size: 20px;
+      margin: 0;
+      color: white
+    }
+
+    td p {
+      font-size: 8px;
+      color: white;
+    }
+}
