@@ -136,11 +136,12 @@
       margin: 0;
       margin-left: 15px;
       margin-top: 460px;
-      width: 50%;
+      width: 20%;
     }
     
     .progress-bar {
         background: #00008b;
+        margin-bottom: 10px;
     }
     
     mark {
