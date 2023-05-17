@@ -453,14 +453,14 @@
     }
    
      .bi {
-      width: 100%;
+      width: 5%;
       margin-bottom: 10px;
       margin-right: 10px;
    }
    
     .fa-brands {
       margin-right: 0px;
-      width: 50%;
+      width: 30%;
       display: flex;
       margin-bottom: 10px;
       margin-top: 10px;
@@ -468,7 +468,7 @@
 
    
    object {
-      width: 50%;
+      width: 20%;
       display: flex;
    }
    
