@@ -143,7 +143,10 @@
         background: #00008b;
         margin-bottom: 30px;
         margin: 0;
-        width: 100%;
+    }
+    
+    .check {
+         background: #00008b;
     }
     
     mark {
