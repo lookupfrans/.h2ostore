@@ -135,8 +135,12 @@
     .info2 .button {
       margin: 0;
       margin-left: 15px;
-      margin-top: 250px;
-   }
+      margin-top: 380px;
+    }
+    
+    .progress-bar {
+        background: #00008b;
+    }
     
     mark {
       background: linear-gradient(
