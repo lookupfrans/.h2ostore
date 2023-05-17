@@ -132,6 +132,12 @@
         color: white;
     }
     
+    .info2 .button {
+      margin: 0;
+      margin-left: 15px;
+      margin-top: 550px;
+   }
+    
     mark {
       background: linear-gradient(
       -100deg,
