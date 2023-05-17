@@ -8,13 +8,15 @@
         margin: 0;
     }
     
-    .gform {
+    .pure-form {
         width: 100%;
         margin: 0;
     }
     
-    h4 {
+    .info {
+        margin-left: 40px;
         color: #fff;
+        width: 100%;
     }
     
     .label {
