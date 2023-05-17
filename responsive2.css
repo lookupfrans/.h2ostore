@@ -141,7 +141,7 @@
     
     .progress-bar {
         background: #00008b;
-        margin-bottom: 60px;
+        margin-bottom: 30px;
         margin: 0;
     }
     
@@ -275,7 +275,6 @@
     footer p a {
       opacity: 0.7;
       color: white;
-      font-size: 5px;
     }
     
     footer td {
@@ -289,11 +288,7 @@
 
    .fa-brands {
       width: 20%;
-      margin-right: 0;
-   }
-
-   object {
-      width: 15%;
+      margin-right: 5px;
    }
   
     td {
