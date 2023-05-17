@@ -13,10 +13,6 @@
         margin: 0;
     }
     
-    .inp {
-        width: 50%;
-    }
-    
     .info {
         margin-left: 40px;
         color: #fff;
@@ -148,7 +144,7 @@
    }
     
     .info {
-        width: 50%;
+        width: 100%;
         margin: 0;
         margin-bottom: 60px;
     }
@@ -161,6 +157,7 @@
     .inp {
       color: white;
       border-bottom: 1px solid #eee;
+      width: 50%;
     }
     
     textarea {
