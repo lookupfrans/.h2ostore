@@ -129,7 +129,10 @@
       margin-bottom: 10px;
       margin-top: 10px;
     }
-
+    .fab {
+      width: 20%;
+    }
+   
     object {
       width: 20%;
       display: flex;
