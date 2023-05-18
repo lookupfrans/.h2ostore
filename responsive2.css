@@ -75,9 +75,10 @@
         color: #fff;
     }
     
-    /*.inp {
+    .inp {
         margin-right: 245px;
-    }*/
+        margin-top: 50px;
+    }
     
     .message-wrapper b {
         margin-top: 20px;
