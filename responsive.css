@@ -474,6 +474,10 @@
       margin-bottom: 10px;
       margin-top: 10px;
    }
+   
+   .fab {
+      font-size: 25px
+   }
 
    object {
       width: 15%;
