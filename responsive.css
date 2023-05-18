@@ -3,6 +3,14 @@
      background: #00008b;
     }
    
+   input {
+      width: 20%;
+    }
+
+ 
+
+   
+   
    label {
       color: #fff;
     }
@@ -459,6 +467,7 @@
    }
    
     .fa-brands {
+      font-size: 15px;
       margin-right: 0px;
       width: 20%;
       display: flex;
