@@ -347,7 +347,7 @@
    .fa-brands {
       margin-top: 5px;
       font-size: 15px;
-      margin-right: 0;
+      margin-right: 5px;
    }
     
    .fab {
@@ -356,7 +356,7 @@
    }
 
    object {
-      width: 15%;
+      font-size: 15px;
    }
   
     td {
