@@ -345,8 +345,14 @@
    }
 
    .fa-brands {
-      width: 20%;
+      margin-top: 5px;
+      font-size: 15px;
       margin-right: 0;
+   }
+    
+   .fab {
+       margin-top: 5px;
+       font-size: 15px;
    }
 
    object {
