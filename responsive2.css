@@ -3,10 +3,19 @@
      background: #00008b;
     }
     
-    input[type=submit] {
-        width: 100%;
-        margin: 0;
-    }
+   .info2 {
+      margin-top: 1500px;
+   }
+
+   .progress-bar {
+      width: 100%;
+      margin: 0;
+      margin-top: 60px;
+   }
+
+   .check {
+      margin-top: 80px;
+   }
     
     fieldset {
         display: none;
