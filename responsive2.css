@@ -8,7 +8,11 @@
    }
     
     #submit {
-        margin-bottom: 900px;
+       bottom: 900px;
+    }
+    
+     .text {
+       bottom: 900px;
     }
 
    .progress-bar {
