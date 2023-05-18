@@ -29,7 +29,8 @@
     }
     
     .text {
-      
+        width: 0;
+        margin: 0;
     }
     
     .message-wrapper b {
