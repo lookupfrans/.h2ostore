@@ -5,6 +5,7 @@
     
    .info2 {
       margin-top: 700px;
+      margin-right: 70px;
       bottom: 900px;
    }
     
@@ -12,7 +13,7 @@
        bottom: 900px;
     }
     
-     .text {
+     #submit .text {
        bottom: 900px;
     }
 
