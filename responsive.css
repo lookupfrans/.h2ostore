@@ -141,11 +141,13 @@
    
     .fab {
       font-size: 25px;
+      margin-top: 10px;
     }
    
     object {
       width: 15%;
       display: flex;
+      margin-top: 10px;
     }
 
     footer {
@@ -471,7 +473,7 @@
     .fa-brands {
       font-size: 15px;
       margin-right: 0px;
-      
+      width: 20%;
       display: flex;
       margin-bottom: 10px;
       margin-top: 10px;
@@ -479,6 +481,7 @@
    }
    
    .fab {
+      margin-top: 10px
       font-size: 15px;
       margin: 0;
    }
@@ -486,6 +489,7 @@
    object {
       width: 15%;
       display: flex;
+      margin-top: 10px;
    }
    
     footer {
