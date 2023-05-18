@@ -9,7 +9,7 @@
       bottom: 900px;
    }
     
-    #submit {
+    submit .text{
        bottom: 900px;
     }
     
@@ -51,6 +51,11 @@
     }
     
     .pure-form {
+        width: 100%;
+        margin: 0;
+    }
+    
+    .gform {
         width: 100%;
         margin: 0;
     }
