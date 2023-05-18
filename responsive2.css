@@ -14,8 +14,8 @@
       position: absolute;
    }
 
-    {
-      margin-top: 80px;
+    svg {
+      position: absolute;
    }
     
     fieldset {
