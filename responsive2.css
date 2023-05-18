@@ -4,8 +4,12 @@
     }
     
    .info2 {
-      margin-top: 600px;
+      margin-top: 700px;
    }
+    
+    .text {
+        margin-top: 500px;
+    }
 
    .progress-bar {
       margin: 0;
